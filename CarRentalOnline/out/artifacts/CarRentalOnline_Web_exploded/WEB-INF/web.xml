@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="2.5" 
+	xmlns="http://java.sun.com/xml/ns/javaee" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee 
+	http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd">
+	 <filter>
+  <filter-name>EncodeFilter</filter-name>
+  <filter-class>com.cuc.filter.EncodeFilter</filter-class>
+ </filter>
+ <filter-mapping>
+  <filter-name>EncodeFilter</filter-name>
+  <url-pattern>/*</url-pattern>
+ </filter-mapping>
+  <servlet>
+    <servlet-name>EncodeFilter</servlet-name>
+    <servlet-class>com.cuc.filter.EncodeFilter</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>MemberServlet</servlet-name>
+    <servlet-class>com.cuc.member.MemberServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>StoreServlet</servlet-name>
+    <servlet-class>com.cuc.servlet.StoreServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>LoginServlet</servlet-name>
+    <servlet-class>com.cuc.login.LoginServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>MessageServlet</servlet-name>
+    <servlet-class>com.cuc.servlet.MessageServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>CarServlet</servlet-name>
+    <servlet-class>com.cuc.servlet.CarServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>SysAdminServlet</servlet-name>
+    <servlet-class>com.cuc.servlet.SysAdminServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>JiDianServlet</servlet-name>
+    <servlet-class>com.cuc.servlet.JiDianServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>OrderServlet</servlet-name>
+    <servlet-class>com.cuc.servlet.OrderServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>QuartzServlet</servlet-name>
+    <servlet-class>com.cuc.servlet.QuartzServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>BrandServlet</servlet-name>
+    <servlet-class>com.cuc.servlet.BrandServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>RegisterServlet</servlet-name>
+    <servlet-class>com.cuc.servlet.RegisterServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>CarRentalServlet</servlet-name>
+    <servlet-class>com.cuc.servlet.CarRentalServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>StoreProfitServlet</servlet-name>
+    <servlet-class>com.cuc.servlet.StoreProfitServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>A</servlet-name>
+    <servlet-class>com.cuc.member.A</servlet-class>
+  </servlet>
+
+
+
+
+
+
+
+
+
+
+ 
+  
+
+
+
+
+
+
+
+  <servlet-mapping>
+    <servlet-name>EncodeFilter</servlet-name>
+    <url-pattern>/servlet/EncodeFilter</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>MemberServlet</servlet-name>
+    <url-pattern>/servlet/MemberServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>StoreServlet</servlet-name>
+    <url-pattern>/servlet/StoreServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>LoginServlet</servlet-name>
+    <url-pattern>/servlet/LoginServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>MessageServlet</servlet-name>
+    <url-pattern>/servlet/MessageServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>CarServlet</servlet-name>
+    <url-pattern>/servlet/CarServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>SysAdminServlet</servlet-name>
+    <url-pattern>/servlet/SysAdminServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>JiDianServlet</servlet-name>
+    <url-pattern>/servlet/JiDianServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>OrderServlet</servlet-name>
+    <url-pattern>/servlet/OrderServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>QuartzServlet</servlet-name>
+    <url-pattern>/servlet/QuartzServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>BrandServlet</servlet-name>
+    <url-pattern>/servlet/BrandServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>RegisterServlet</servlet-name>
+    <url-pattern>/servlet/RegisterServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>CarRentalServlet</servlet-name>
+    <url-pattern>/servlet/CarRentalServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>StoreProfitServlet</servlet-name>
+    <url-pattern>/servlet/StoreProfitServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>A</servlet-name>
+    <url-pattern>/servlet/A</url-pattern>
+  </servlet-mapping>
+
+  <welcome-file-list>
+    <welcome-file>/member/welcome.jsp</welcome-file>
+  </welcome-file-list>
+</web-app>

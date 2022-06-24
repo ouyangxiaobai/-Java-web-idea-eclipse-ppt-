@@ -1,0 +1,930 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="CarRentalOnline:Web exploded" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="68d1e56a-d589-49d2-ac7d-4b07a8e42282" name="Default Changelist" comment="" />
+    <ignored path="$PROJECT_DIR$/WebRoot/WEB-INF/classes/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/cuc/dao/imp/OrderDAO.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1917">
+              <caret line="76" selection-start-line="76" selection-end-line="76" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/WebRoot/member/OrderListZhulinzhong.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="3402">
+              <caret line="126" column="73" selection-start-line="125" selection-start-column="52" selection-end-line="126" selection-end-column="73" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/WebRoot/sysAdmin/ShowBoxiuOrderList.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="3726">
+              <caret line="138" column="52" selection-start-line="138" selection-start-column="52" selection-end-line="138" selection-end-column="52" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/WebRoot/sysAdmin/ShowBoxiuOrderListmen.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="3726">
+              <caret line="138" column="52" selection-start-line="138" selection-start-column="52" selection-end-line="138" selection-end-column="52" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/cuc/servlet/OrderServlet.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1078">
+              <caret line="1016" selection-start-line="1016" selection-end-line="1016" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>还车</find>
+      <find>ghts Reserv</find>
+      <find>getStoreName</find>
+      <find>main</find>
+      <find>MemberSearchOrderbaoxiu</find>
+      <find>value=&quot;订单详情&quot;</find>
+      <find>ShowAllCar</find>
+      <find>车辆型号</find>
+      <find>车辆型号不能为空</find>
+      <find>请选择车辆型号</find>
+      <find>型号</find>
+      <find>-请选择车辆型号--</find>
+      <find>showDayStoreProfit</find>
+      <find>String(request.getParameter(&quot;province&quot;).getBytes(</find>
+      <find>购入日期</find>
+      <find>ysAdminJumpToAddCarInfo</find>
+      <find>型号&lt;/strong&gt;</find>
+      <find>&lt;strong&gt;型号&lt;/strong&gt;</find>
+      <find>车牌号不能为空！</find>
+      <find>不允许上传的文件类型</find>
+      <find>热门车型</find>
+      <find>carType</find>
+      <find>searchAllMessageByState</find>
+      <find>-411</find>
+      <find>baoxiuzhongorder</find>
+      <find>3306</find>
+      <find>baoxiuzhongorderweixiu</find>
+      <find>维修中</find>
+      <find>维修</find>
+      <find>报修状态</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>Copyright©2022 All Rights Reserved. 基于Java web的校园电动车租赁系统</replace>
+      <replace>2022</replace>
+      <replace>基于Java web的校园电动车租赁系统</replace>
+      <replace>用户分享帖</replace>
+      <replace>电动车</replace>
+    </replaceStrings>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/WebRoot/sysAdmin/welcome.jsp" />
+        <option value="$PROJECT_DIR$/WebRoot/member/OrderPay.jsp" />
+        <option value="$PROJECT_DIR$/WebRoot/member/Header.jsp" />
+        <option value="$PROJECT_DIR$/WebRoot/member/message.jsp" />
+        <option value="$PROJECT_DIR$/WebRoot/member/StoreInfo.jsp" />
+        <option value="$PROJECT_DIR$/WebRoot/member/AboutUs.jsp" />
+        <option value="$PROJECT_DIR$/WebRoot/member/OrderCharge.jsp" />
+        <option value="$PROJECT_DIR$/WebRoot/member/operate.jsp" />
+        <option value="$PROJECT_DIR$/WebRoot/member/operateContent.jsp" />
+        <option value="$PROJECT_DIR$/WebRoot/member/ChangePassword.jsp" />
+        <option value="$PROJECT_DIR$/WebRoot/businessStore/welcome.jsp" />
+        <option value="$PROJECT_DIR$/WebRoot/businessStore/StoreInfo.jsp" />
+        <option value="$PROJECT_DIR$/WebRoot/businessStore/css/style.css" />
+        <option value="$PROJECT_DIR$/WebRoot/member/login.jsp" />
+        <option value="$PROJECT_DIR$/WebRoot/member/orderCar.jsp" />
+        <option value="$PROJECT_DIR$/WebRoot/member/OrderList.jsp" />
+        <option value="$PROJECT_DIR$/WebRoot/member/OrderPay2.jsp" />
+        <option value="$PROJECT_DIR$/WebRoot/member/OrderPaySuccess.jsp" />
+        <option value="$PROJECT_DIR$/WebRoot/member/OrderPaySuccess2.jsp" />
+        <option value="$PROJECT_DIR$/WebRoot/member/SearchCar.jsp" />
+        <option value="$PROJECT_DIR$/WebRoot/businessStore/OrderDetail.jsp" />
+        <option value="$PROJECT_DIR$/WebRoot/businessStore/OutCar.jsp" />
+        <option value="$PROJECT_DIR$/WebRoot/businessStore/ReturnCar.jsp" />
+        <option value="$PROJECT_DIR$/WebRoot/businessStore/ReturnCarOrderDetail.jsp" />
+        <option value="$PROJECT_DIR$/WebRoot/businessStore/ShowAllOrderList.jsp" />
+        <option value="$PROJECT_DIR$/WebRoot/businessStore/ShowCancelOrderList.jsp" />
+        <option value="$PROJECT_DIR$/WebRoot/businessStore/ShowDaiChuCheOrderList.jsp" />
+        <option value="$PROJECT_DIR$/WebRoot/businessStore/ShowDaiHuanCheOrderList.jsp" />
+        <option value="$PROJECT_DIR$/WebRoot/businessStore/ShowDaiZhiFuOrderList.jsp" />
+        <option value="$PROJECT_DIR$/WebRoot/businessStore/ShowFinishedOrderList.jsp" />
+        <option value="$PROJECT_DIR$/WebRoot/businessStore/ShowRentaingOrderList.jsp" />
+        <option value="$PROJECT_DIR$/WebRoot/sysAdmin/AddMemberInfo.jsp" />
+        <option value="$PROJECT_DIR$/WebRoot/sysAdmin/ShowAllOrderList.jsp" />
+        <option value="$PROJECT_DIR$/WebRoot/sysAdmin/ShowBoxiuOrderList.jsp" />
+        <option value="$PROJECT_DIR$/WebRoot/statistics/CarRentalStatistics.jsp" />
+        <option value="$PROJECT_DIR$/WebRoot/statistics/UserDevelopmentStatistics.jsp" />
+        <option value="$PROJECT_DIR$/WebRoot/statistics/StoreProfitStatistics.jsp" />
+        <option value="$PROJECT_DIR$/WebRoot/member/FrequentInfo.jsp" />
+        <option value="$PROJECT_DIR$/src/com/cuc/dao/IOrderDAO.java" />
+        <option value="$PROJECT_DIR$/src/com/cuc/util/DBUtil.java" />
+        <option value="$PROJECT_DIR$/src/com/cuc/servlet/OrderServlet.java" />
+        <option value="$PROJECT_DIR$/WebRoot/businessStore/CarList.jsp" />
+        <option value="$PROJECT_DIR$/src/com/cuc/servlet/StoreServlet.java" />
+        <option value="$PROJECT_DIR$/WebRoot/businessStore/AddCarInfo.jsp" />
+        <option value="$PROJECT_DIR$/WebRoot/sysAdmin/AddCarInfo.jsp" />
+        <option value="$PROJECT_DIR$/WebRoot/businessStore/UpdateCarInfo.jsp" />
+        <option value="$PROJECT_DIR$/src/com/cuc/servlet/CarServlet.java" />
+        <option value="$PROJECT_DIR$/WebRoot/member/welcome.jsp" />
+        <option value="$PROJECT_DIR$/src/com/cuc/dao/imp/OrderDAO.java" />
+        <option value="$PROJECT_DIR$/WebRoot/sysAdmin/ShowBoxiuOrderListmen.jsp" />
+        <option value="$PROJECT_DIR$/WebRoot/member/OrderListZhulinzhong.jsp" />
+      </list>
+    </option>
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="2576" />
+    <option name="height" value="1426" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="CarRentalOnline" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CarRentalOnline" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CarRentalOnline" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CarRentalOnline" type="462c0819:PsiDirectoryNode" />
+              <item name=".settings" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CarRentalOnline" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CarRentalOnline" type="462c0819:PsiDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CarRentalOnline" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CarRentalOnline" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1649049720591" />
+    <property name="last_opened_file_path" value="D:/software/tomcat/apache-tomcat-8.5.29/lib/servlet-api.jar!/" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\毕设\4.源码\CarRentalOnline\WebRoot\businessStore\images" />
+      <recent name="D:\共享文件\code space\基于Java web的校园电动车租赁系统\4.源码\CarRentalOnline\WebRoot\sysAdmin" />
+      <recent name="D:\共享文件\code space\基于Java web的校园电动车租赁系统\4.源码\CarRentalOnline\WebRoot\member" />
+      <recent name="D:\共享文件\code space\基于Java web的校园电动车租赁系统\4.源码\CarRentalOnline\WebRoot\uploadFiles" />
+      <recent name="D:\共享文件\code space\基于Java web的校园电动车租赁系统\4.源码\CarRentalOnline\WebRoot\member\images" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="Tomcat 8.0.52" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.29" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="CarRentalOnline:Web exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/CarRentalOnline" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Tomcat_8_0_52_CarRentalOnline" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="61062" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="CarRentalOnline:Web exploded" />
+        </option>
+      </method>
+    </configuration>
+    <configuration default="true" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.0.52" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="CarRentalOnline:Web exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/CarRentalOnline" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="_CarRentalOnline" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="61062" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="CarRentalOnline:Web exploded" />
+        </option>
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="68d1e56a-d589-49d2-ac7d-4b07a8e42282" name="Default Changelist" comment="" />
+      <created>1623159845987</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1623159845987</updated>
+      <workItem from="1623159849998" duration="2649000" />
+      <workItem from="1644241693337" duration="2800000" />
+      <workItem from="1644293175969" duration="1258000" />
+      <workItem from="1644325253900" duration="595000" />
+      <workItem from="1644476375539" duration="3914000" />
+      <workItem from="1644550627591" duration="1599000" />
+      <workItem from="1644561670585" duration="4135000" />
+      <workItem from="1644647589173" duration="3000" />
+      <workItem from="1644655270052" duration="8917000" />
+      <workItem from="1644737766723" duration="96000" />
+      <workItem from="1644747253858" duration="1200000" />
+      <workItem from="1644749200379" duration="76000" />
+      <workItem from="1644992036123" duration="1248000" />
+      <workItem from="1645015390268" duration="615000" />
+      <workItem from="1645084558758" duration="629000" />
+      <workItem from="1645347414785" duration="4938000" />
+      <workItem from="1645355769870" duration="1473000" />
+      <workItem from="1645442425400" duration="4771000" />
+      <workItem from="1645532357948" duration="3076000" />
+      <workItem from="1645689560114" duration="5417000" />
+      <workItem from="1645770267395" duration="2194000" />
+      <workItem from="1645777831201" duration="660000" />
+      <workItem from="1646049577882" duration="293000" />
+      <workItem from="1646049951783" duration="151000" />
+      <workItem from="1646050330150" duration="587000" />
+      <workItem from="1646051012634" duration="191000" />
+      <workItem from="1646051281715" duration="279000" />
+      <workItem from="1646051812554" duration="955000" />
+      <workItem from="1646052864826" duration="531000" />
+      <workItem from="1646053909908" duration="289000" />
+      <workItem from="1646056870567" duration="124000" />
+      <workItem from="1646095435442" duration="362000" />
+      <workItem from="1646129119607" duration="94000" />
+      <workItem from="1646131819200" duration="325000" />
+      <workItem from="1646184997518" duration="13000" />
+      <workItem from="1646189389862" duration="2691000" />
+      <workItem from="1646212763085" duration="268000" />
+      <workItem from="1646222585398" duration="1209000" />
+      <workItem from="1646279206877" duration="632000" />
+      <workItem from="1646282217682" duration="8290000" />
+      <workItem from="1646310752326" duration="5022000" />
+      <workItem from="1646354457103" duration="699000" />
+      <workItem from="1646377098475" duration="2046000" />
+      <workItem from="1646396745039" duration="308000" />
+      <workItem from="1646480609626" duration="6715000" />
+      <workItem from="1646738603253" duration="638000" />
+      <workItem from="1646797644218" duration="1450000" />
+      <workItem from="1647152312604" duration="593000" />
+      <workItem from="1647168285540" duration="2898000" />
+      <workItem from="1647349451984" duration="3098000" />
+      <workItem from="1647432676140" duration="596000" />
+      <workItem from="1647779150764" duration="611000" />
+      <workItem from="1647823066311" duration="16000" />
+      <workItem from="1648025407842" duration="7048000" />
+      <workItem from="1648039403858" duration="580000" />
+      <workItem from="1648040005326" duration="1966000" />
+      <workItem from="1648544229315" duration="624000" />
+      <workItem from="1648626306178" duration="478000" />
+      <workItem from="1648627297482" duration="1938000" />
+      <workItem from="1648629333065" duration="7000" />
+      <workItem from="1648880770088" duration="57000" />
+      <workItem from="1648880882566" duration="782000" />
+      <workItem from="1649048657177" duration="1157000" />
+      <workItem from="1649336057602" duration="564000" />
+      <workItem from="1649338863178" duration="600000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="109857000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="2576" height="1426" extended-state="6" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.33534622" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Favorites" order="5" side_tool="true" />
+      <window_info id="Capture Tool" order="6" />
+      <window_info id="Web" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.47179067" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.45298445" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Application Servers" order="7" weight="0.32792792" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.3614064" />
+      <window_info anchor="bottom" id="Java Enterprise" order="11" />
+      <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="13" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Docker" order="14" show_stripe_button="false" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Maven Projects" order="5" />
+      <window_info anchor="right" id="Database" order="6" weight="0.038203754" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+      <window_info anchor="right" id="Maven" order="9" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/cuc/servlet/OrderServlet.java</url>
+          <line>593</line>
+          <properties />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/WebRoot/businessStore/StoreInfo.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2128" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebRoot/businessStore/UpdateCarInfo.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-11989" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebRoot/sysAdmin/AddInsuranceInfo.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2451" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebRoot/sysAdmin/AddMemberInfo.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1197">
+          <caret line="90" column="45" selection-start-line="90" selection-start-column="45" selection-end-line="90" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebRoot/sysAdmin/AddStoreInfo.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2565" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebRoot/sysAdmin/frequentContent.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1140" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebRoot/sysAdmin/ShowAllInsuranceInfo.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2508" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebRoot/sysAdmin/ShowAllMemberInfo.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2218" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebRoot/sysAdmin/ShowAllMessage.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1368" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebRoot/sysAdmin/ShowAllOrderList.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3116">
+          <caret line="164" selection-start-line="164" selection-end-line="164" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebRoot/sysAdmin/ShowAllStoreInfo.jsp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebRoot/sysAdmin/ShowAllSysAdmin.jsp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebRoot/sysAdmin/SysAdminInfo.jsp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebRoot/sysAdmin/UpdateInsuranceInfo.jsp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebRoot/sysAdmin/UpdateStoreInfo.jsp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebRoot/businessStore/OrderDetail.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2926">
+          <caret line="154" column="55" selection-start-line="154" selection-start-column="55" selection-end-line="154" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/cuc/servlet/CarRentalServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="383">
+          <caret line="142" column="69" selection-start-line="142" selection-start-column="50" selection-end-line="142" selection-end-column="69" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/cuc/dao/IBrandDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/cuc/dao/imp/BrandDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="206">
+          <caret line="22" column="5" lean-forward="true" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/cuc/servlet/BrandServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="87">
+          <caret line="44" lean-forward="true" selection-start-line="44" selection-end-line="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/cuc/dao/ICarDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="15" column="19" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebRoot/statistics/StoreProfitStatistics.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="703">
+          <caret line="37" column="7" selection-start-line="37" selection-start-column="7" selection-end-line="37" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebRoot/member/FrequentInfo.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6498">
+          <caret line="342" column="25" selection-start-line="342" selection-start-column="25" selection-end-line="342" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebRoot/member/memberInfo.jsp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebRoot/member/AllMessage.jsp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebRoot/member/Copy of OrderPaySuccess2.jsp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebRoot/member/ChangePassword.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="960">
+          <caret line="32" column="18" selection-start-line="32" selection-start-column="12" selection-end-line="32" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebRoot/statistics/UserDevelopmentStatistics.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2400">
+          <caret line="80" column="65" selection-start-line="80" selection-start-column="65" selection-end-line="80" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebRoot/statistics/CarRentalStatistics.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2550">
+          <caret line="85" column="65" selection-start-line="85" selection-start-column="65" selection-end-line="85" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/cuc/dao/imp/CarDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="11" column="19" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebRoot/member/login.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="145" column="18" selection-start-line="145" selection-start-column="18" selection-end-line="145" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/cuc/servlet/MessageServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="10" column="30" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebRoot/businessStore/welcome.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="25" column="30" lean-forward="true" selection-start-line="25" selection-start-column="30" selection-end-line="25" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebRoot/member/memberInfoCenter.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="13" column="32" selection-start-line="13" selection-start-column="32" selection-end-line="13" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebRoot/businessStore/CarList.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="42" column="9" lean-forward="true" selection-start-line="42" selection-start-column="9" selection-end-line="42" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/cuc/servlet/CarServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2268">
+          <caret line="115" column="13" selection-start-line="115" selection-start-column="13" selection-end-line="115" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/cuc/dao/imp/MessageDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="756">
+          <caret line="37" selection-start-line="37" selection-end-line="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebRoot/sysAdmin/AddCarInfo.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5427">
+          <caret line="201" selection-start-line="201" selection-end-line="201" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/cuc/servlet/StoreProfitServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="7047">
+          <caret line="274" column="70" selection-start-line="274" selection-start-column="70" selection-end-line="274" selection-end-column="70" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/cuc/dao/IDayStoreProfitDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="17" column="31" selection-start-line="17" selection-start-column="31" selection-end-line="17" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/cuc/dao/imp/DayStoreProfitDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/cuc/servlet/StoreServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3780">
+          <caret line="155" selection-start-line="155" selection-end-line="156" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebRoot/businessStore/AddCarInfo.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="9585">
+          <caret line="355" column="73" selection-start-line="355" selection-start-column="73" selection-end-line="355" selection-end-column="73" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/cuc/util/DBUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="648">
+          <caret line="30" column="34" selection-start-line="30" selection-start-column="34" selection-end-line="30" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebRoot/member/welcome.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="309">
+          <caret line="650" column="22" lean-forward="true" selection-start-line="650" selection-start-column="22" selection-end-line="650" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/cuc/dao/IOrderDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="313">
+          <caret line="28" column="19" selection-start-line="28" selection-start-column="19" selection-end-line="28" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/cuc/dao/imp/OrderDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1917">
+          <caret line="76" selection-start-line="76" selection-end-line="76" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebRoot/member/OrderListZhulinzhong.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3402">
+          <caret line="126" column="73" selection-start-line="125" selection-start-column="52" selection-end-line="126" selection-end-column="73" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebRoot/sysAdmin/ShowBoxiuOrderList.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3726">
+          <caret line="138" column="52" selection-start-line="138" selection-start-column="52" selection-end-line="138" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebRoot/sysAdmin/ShowBoxiuOrderListmen.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3726">
+          <caret line="138" column="52" selection-start-line="138" selection-start-column="52" selection-end-line="138" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/cuc/servlet/OrderServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1078">
+          <caret line="1016" selection-start-line="1016" selection-end-line="1016" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <last-edited>CarRentalOnline:Web exploded</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.5" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Web (CarRentalOnline)|Web</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.7</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>CarRentalOnline</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>lib</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

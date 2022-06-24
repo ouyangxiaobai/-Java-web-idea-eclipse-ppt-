@@ -1,0 +1,87 @@
+/* Minification failed. Returning unminified contents.
+(27,215): run-time error CSS1054: JavaScript error in expression property: Variable has not been declared: TBWindowMargin
+(39,213): run-time error CSS1054: JavaScript error in expression property: Variable has not been declared: TBWindowMargin
+(70,90): run-time error CSS1019: Unexpected token, found '.'
+(70,90): run-time error CSS1042: Expected function, found '.'
+(70,90): run-time error CSS1062: Expected semicolon or closing curly-brace, found '.'
+(71,81): run-time error CSS1019: Unexpected token, found '.'
+(71,81): run-time error CSS1042: Expected function, found '.'
+(71,81): run-time error CSS1062: Expected semicolon or closing curly-brace, found '.'
+ */
+ /*
+ * Copyright (c) www.1hai.cn, All rights reserved.
+ * MIT Licensed
+ * Build: 2014-07-14 9:11
+ * By WHX
+ */
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, code, form, fieldset, legend, input, button, textarea, p, blockquote, th, td {margin: 0;padding: 0;}
+img {border: none;}
+h1, h2, h3, h4, h5, h6 {font-weight: normal;}
+ol, ul {list-style: none;}
+table {border-collapse: collapse;border-spacing: 0;}
+caption, th {text-align: left;}
+input, select {}
+.clear_float:after {display: block;visibility: hidden;height: 0;clear: both;content: "";}
+.clear_float {display: inline-block;}
+* html .clear_float {zoom: 1;}
+.clear_float {display: block;}
+a{ text-decoration:none;}
+body {font-size: 12px;color: #666;font-family:Tahoma, "����";}
+
+/**step popup style**/
+#TB_overlay {position: fixed;z-index:100;top: 0px;left: 0px;height:100%;width:100%;}
+.TB_overlayMacFFBGHack {background: url(macFFBgHack.png) repeat;}
+.TB_overlayBG {background-color:#000;filter:alpha(opacity=45);-moz-opacity: 0.45;opacity: 0.45;}
+* html #TB_overlay {position: absolute; height: expression(document.body.scrollHeight > document.body.offsetHeight ? document.body.scrollHeight : document.body.offsetHeight + 'px');}
+#TB_window {position: fixed;background: #ffffff;z-index: 102;color:#000000;display:none;border: 5px solid #0088cc;text-align:left;top:50%;left:50%;}
+* html #TB_window {position: absolute;margin-top: expression(0 - parseInt(this.offsetHeight / 2) + (TBWindowMargin = document.documentElement && document.documentElement.scrollTop || document.body.scrollTop) + 'px');}
+#TB_window img#TB_Image {display:block;margin: 15px 0 0 15px;border-right: 1px solid #ccc;border-bottom: 1px solid #ccc;border-top: 1px solid #666;border-left: 1px solid #666;}
+#TB_caption{height:25px;padding:7px 30px 10px 25px;float:left;}
+#TB_closeWindow{height:25px;padding:11px 25px 10px 0;float:right;}
+#TB_closeAjaxWindow{ text-indent:-9999px;}
+#TB_closeWindowButton{width:17px; height:17px; position:absolute; background:url(../../../Images/Order/NewStep/popup_close_btn.png) no-repeat; cursor:pointer; right:10px; top:10px; text-indent:-9999px;}
+#TB_ajaxWindowTitle{ display:none;float:left;padding:7px 0 5px 10px;margin-bottom:1px;}
+#TB_title{background-color:#fff;height:0px; }
+#TB_ajaxContent{clear:both;padding:2px 15px 15px 15px;overflow:auto;text-align:left;line-height:1.4em;}
+#TB_ajaxContent.TB_modal{padding:15px;}
+#TB_ajaxContent p{padding:5px 0px 5px 0px;}
+#TB_load{position: fixed;display:none;height:13px;width:208px;z-index:103;top: 50%;left: 50%;margin: -6px 0 0 -104px; /* -height/2 0 0 -width/2 */}
+* html #TB_load {position: absolute;margin-top: expression(0 - parseInt(this.offsetHeight / 2) + (TBWindowMargin = document.documentElement && document.documentElement.scrollTop || document.body.scrollTop) + 'px');}
+#TB_HideSelect{z-index:99;position:fixed;top: 0;left: 0;background-color:#fff;border:none;filter:alpha(opacity=0);-moz-opacity: 0;opacity: 0;height:100%;width:100%;}
+* html #TB_HideSelect {position: absolute;height: expression(document.body.scrollHeight > document.body.offsetHeight ? document.body.scrollHeight : document.body.offsetHeight + 'px');}
+#TB_iframeContent{clear:both;border:none;margin-bottom:-1px;margin-top:1px;_margin-bottom:1px;}
+
+.payment-alarm{ width:100%; height:25px; line-height:25px; background:#FFFCD3; font-size:14px; text-indent:20px; font-weight:bolder; color:#F00;}
+
+.error-page-container{width:960px;margin:80px auto;color:#999;font-size:14px}
+.error-page-title{height:100px;font-family:"΢���ź�";font-size:40px;text-align:center;color:#666}
+.error-page{height:200px;background:url(../../../Images/Shared/errorPage_icon.jpg) no-repeat 20px}
+.error-page-link{width:380px;float:right}
+.error-page-link li{list-style:none;line-height:40px}
+.error-page-link li a{color:#0074c1;text-decoration:underline}
+.header{ width:100%; height:80px;}
+.header-box{ margin:auto; width:1180px; height:80px; background:url(../../../Images/Order/NewStep/booking_logo.png) no-repeat 0 18px;}
+.top-banner{ width:962px; height:30px; float:right; margin-top:30px;}
+.login-box{ width:700px; text-align:right;  float:left;}
+.login-box a{display:inline-block; margin:0 5px; color:#0088cc; height:25px; line-height:25px; font-weight:bolder;}
+.login-box a:hover{ text-decoration:underline;}
+.login-box span{ height:25px; display:inline-block; line-height:25px;}
+
+.top-menu-box{ width:262px; height:30px; float:right; text-align:right; position:relative; }
+.top-menu-box a{ display:inline-block; margin:0 5px; color:#666; height:25px; line-height:25px;}
+.top-menu-box a:hover{ text-decoration:underline;}
+.top-menu-box span{ height:25px; display:inline-block; line-height:25px;}
+.top-menu-box .contact-us{ width:78px; border:1px solid #fff; background:url(../../../Images/Order/NewStep/contact_bg.png) no-repeat 92px 12px; padding-left:10px; padding-right:20px; margin-right:5px; color:#0088cc; cursor:pointer; height:23px;}
+.top-menu-box .contact-us:hover{width:78px; border:1px solid #ccc; height:23px;}
+.top-menu-box .on{width:78px; border:1px solid #ccc; height:23px;}
+.contact-popup{ display:none; background:#FFF;position:absolute; border:1px solid #ccc; width:230px; height:30px; line-height:30px; color: #666; text-align:center; right:5px; top:24px;}
+.contact-popup em{ color:#0088cc; font-style:normal;}
+.space-hack{ position:absolute; width:108px; height:2px; right:0px; top:-1px; background:#FFF; font-size:0px;}
+.footer{ font-family: Tahoma, "����";width:100%; height:100px;width:expression_r(document.body.clientWidth <= 1180? "1180px": "auto");min-width:1180px;}
+.footer-box{ width:1180px; height:100px; margin:auto;width:expression_r(document.body.clientWidth <= 1180? "1180px": "auto");min-width:1180px;}
+.footer-box .footer-left{  padding-top:17px; padding-left:5px; color:#333;  width:745px; height:100px; float:left;}
+.footer-box .footer-left a{ color:#333;margin: 0 3px;}
+.footer-box .footer-left a:hover{ text-decoration:underline; color:#333;}
+.footer-box .footer-left p{ padding:5px 0;}
+.footer-box .footer-right{ padding-top:17px;  color:#333;  width:430px; height:100px; float:left;}
+.footer-box .footer-right a{ margin-top:10px; display:inline-block; margin-left:5px;}

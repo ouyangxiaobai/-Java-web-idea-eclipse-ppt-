@@ -1,0 +1,469 @@
+/* Minification failed. Returning unminified contents.
+(211,116): run-time error CSS1054: JavaScript error in expression property: Variable has not been declared: documentElement
+(464,255): run-time error CSS1054: JavaScript error in expression property: Variable has not been declared: documentElement
+(464,347): run-time error CSS1054: JavaScript error in expression property: Variable has not been declared: documentElement
+ */
+
+
+
+body{ color:#666 !important;}
+/*STEP2 LAYOUT*/
+.step2-progress-box{ width:1180px; height:63px; background:url(../images/step2_progress.png) no-repeat; margin:auto;}
+.step2-wrap{ width:80%; margin-bottom:30px;}
+.step2-box{ width:1180px;  overflow:hidden; zoom:1; margin:auto; margin-top:20px;}
+.step2-box-left{ width:1170px; border:1px solid #ccc; float:left;}
+.step2-box-right{ border:1px solid #ccc; }
+
+/*������ϸ*/
+.order-info-box{ overflow:hidden; zoom:1;padding-bottom: 15px;}
+.car-image-box{ float:left; width:200px; height:180px; margin-left:20px; margin-right:20px;}
+.car-image-box img{ width:200px; height:115px; margin-top: 20px;}
+.hourly-img-fix img{ margin-top:25px !important;}
+.car-image-box span{ text-align:center; display:inline-block; width:200px; height:30px; line-height:30px; font-weight:bolder; font-size:14px;}
+.car-image-box span em{ font-style:normal; color:#E55900; padding:0 3px;}
+.store-info-box{ float:left; width:900px; overflow:hidden; zoom:1;}
+.store-info-box .car-name{ position:relative; font-size:22px; font-family: "\5fae\8f6f\96c5\9ed1"; height:40px; margin-top:20px;}
+.store-info-box .car-name span{ font-size:18px; padding-left:10px;}
+.store-info-box .car-name a{ font-family: Tahoma, "����"; display:inline-block; position:absolute; right:0; _right:20px; top:0; font-size:12px; color:#0088cc;}
+.store-info-box .car-name a:hover{ text-decoration:underline;}
+.store-info-box ul li{ line-height:25px; font-size:12px;}
+.store-info-box ul li span{ vertical-align:top; width:400px; display:inline-block; line-height:25px; margin-right:10px;}
+.hourly-info-fix ul li span { width: 560px; }
+.store-info-box ul li .store-title{ font-size:14px; font-weight:bolder;}
+.hourly-info-fix .car-name{ padding-left:30px !important;}
+.hourly-info-fix .car-remark{ padding-left:30px !important;}
+.hourly-info-fix ul{ padding-left:30px !important;}
+
+/*�˸Ĺ���*/
+.rule-toggle a { float: right; color: #08c; }
+.rule-toggle a:hover { color: #08c; text-decoration: underline; }
+
+.rule-content { padding: 10px 20px; }
+.rule-content h3 { font-family: "\5FAE\8F6F\96C5\9ED1"; font-size: 20px; color: #333;padding-top: 10px; }
+.rule-content li { padding-top: 20px; }
+.rule-content h4 { font-size: 14px;padding-bottom: 5px; }
+.rule-content p { line-height: 1.8; padding-left: 15px; }
+
+/*֧����ʽ*/
+.payment-box{overflow:hidden; zoom:1;}
+.payment-box .title{ height:43px; border-top:1px solid #ccc; border-bottom:1px solid #ccc; background:#EFEFEF; line-height:42px; font-size:16px; font-weight:bolder; text-indent:1em;}
+.payment-list{ padding:20px 30px;}
+.payment-list li{ line-height:40px; _height:40px; font-size:14px; font-weight:bolder; position:relative;}
+.payment-list li input{ display:inline-block; margin-right:10px;}
+.payment-list li span{ display:inline-block;  font-size:12px; font-weight:normal; color:#999; position:absolute; left:130px; *line-height:24px;vertical-align: middle;}
+.payment-list li span em{ color:#E55900; font-style:normal; font-weight:bolder; font-family: "\5fae\8f6f\96c5\9ed1";}
+.payment-list li span a { padding-left: 15px; color: #eb5b00; display: inline-block; text-decoration: underline; }
+.payment-list li p{ font-size:12px; font-weight:normal; padding-left:25px; line-height:30px; _height:30px;}
+.payment-list li p input{ vertical-align:middle;}
+.payment-list li p em{ color:#E55900; font-style:normal; font-weight:bolder; font-family: "\5fae\8f6f\96c5\9ed1";}
+.rent-card-box{ display:none; *margin-top:-45px;}
+.company-pay{ padding-left:22px; display:none;}
+.company-pay i{ font-style:normal; font-weight:normal; cursor:pointer; padding-left:30px; padding-right:30px !important; height:38px; line-height:38px; display:inline-block; border:1px solid #ccc; font-size:13px !important; color:#999; margin:10px 10px 0 0; overflow:hidden;}
+.company-pay i:hover{ border:1px solid #E65901; color:#E65901;}
+.company-pay i.pay-sel{ border:1px solid #E65901; color:#E65901; background:url(../../../Images/Order/NewStep/ehi_act_icon.png) no-repeat right bottom;}
+
+/*��������*/
+.upgrade-box{overflow:hidden; zoom:1;}
+.upgrade-box .title{ height:43px; border-top:1px solid #ccc; border-bottom:1px solid #ccc; background:#EFEFEF; line-height:42px; font-size:16px; font-weight:bolder; text-indent:1em;}
+.upgrade-list{ padding:20px 30px; display: inline-block; }
+.ck-upgrade { display: inline-block; float: left; height: 88px; vertical-align: top; margin-right: 12px; }
+.upgrade-before,.upgrade-money,.upgrade-after { display: inline-block; float: left; }
+.upgrade-info,.upgrade-detail { width: 138px; height: 86px; border: 1px solid #d4d4d4; }
+.upgrade-info img { width: 100%; height: 100%; }
+.upgrade-detail { text-align: center; font-size: 24px; color: #b6b6b6; font-family:"Microsoft YaHei"; }
+.upgrade-detail span { padding-top: 19px; display:inline-block; }
+.upgrade-detail span i { font-size: 36px; color: #ee5909; font-style: normal; position: relative; margin-left: 15px; vertical-align: -2px; }
+.upgrade-detail span i em { font-size: 18px; font-style: normal; position: absolute; top: 5px; left: -17px; }
+.upgrade-text { text-align: center; font-size: 20px; color: #333; padding-top: 5px; width: 140px; overflow:hidden; white-space:nowrap; text-overflow:ellipsis; }
+.upgrade-plus,.upgrade-equal { display: inline-block; float: left; vertical-align: top; padding: 33px 20px; }
+
+/*�Żݻ*/
+.activity-box{overflow:hidden; zoom:1;}
+.activity-box .title{ height:43px; border-top:1px solid #ccc; border-bottom:1px solid #ccc; background:#EFEFEF; line-height:42px; font-size:16px; font-weight:bolder; text-indent:1em;}
+.activity-list{ padding:20px 30px;}
+.activity-list li{ _padding:6px 0; line-height:40px; font-size:14px; font-weight:bolder;}
+.activity-list li em{ color:#E55900; font-style:normal; font-weight:bolder; padding-right:10px;}
+.activity-list li input{ vertical-align:middle; height:25px; *vertical-align:-3px;_vertical-align:-2px; display:inline-block; margin-right:10px;}
+.activity-list li span{ vertical-align:middle; display:inline-block; padding-left:10px; font-size:12px; font-weight:normal; color:#999;}
+.activity-list li #errorCode{ color:#ff0000;}
+.activity-list li select{ vertical-align:middle;}
+.activity-list li i{ padding-left:10px; color:#999; font-size:12px; font-style:normal;font-weight: normal;}
+.activity-list li .discount-code{ width:200px; height:25px; line-height:23px; text-indent:3px; border:1px solid #999; margin-right:10px; font-family:Tahoma, ����; color:#666;}
+.activity-list li .discount-confirm{ width:60px; height:25px; line-height:26px; text-align:center; border:1px solid #999; border:1px solid #056FBB; color:#056FBB; background:#FFF; display:inline-block; vertical-align:middle; *margin-top:-4px;}
+.activity-list li .discount-confirm:hover{ background:#056FBB; color:#fff;}
+.activity-list li .corperate-box{ padding-left:22px; display:none;}
+.activity-list li .corperate-box span{ width:118px; height:38px; border:1px solid #E1E1E1; margin-right:3px; cursor:pointer; padding:0; position:relative;}
+.activity-list li .corperate-box span img{ width:118px; height:38px;}
+.activity-list li .corperate-box span:hover{width:118px; height:38px;  border:2px solid #E65901;}
+.activity-list li .corperate-box .sel{width:118px; height:38px;  border:2px solid #E65901;}
+.activity-list li .corperate-box span i{ background:none; position:absolute;}
+.activity-list li .corperate-box .sel i{ position:absolute; right:0; bottom:0; width:16px; height:16px; background:url(../../../Images/Order/NewStep/ehi_act_icon.png) no-repeat; padding-left:0px !important;}
+.activity-load { width: 80px; height: 30px; background: url(../../../Images/Order/NewStep/loading_stp2.gif) no-repeat; margin: 10px 0 10px 10px; }
+.activity-list li span.activity-none { color:red; }
+.activity-list li span.activity-none:hover {margin-right:9px; border:1px solid #ccc; color:red; height:50px; padding-left:10px; padding-right:9px; padding-top: 1px; line-height:48px; cursor: default; }
+.activity-select { padding:20px 30px; font-size: 12px; color: #666; }
+.activity-select span { color: #ee5909; font-weight: bold; }
+.activity-select a { color: #3f88cc; margin-left: 15px; }
+.activity-select a:hover { text-decoration: underline; }
+
+
+.discount-box{ padding-left:22px; display:none;}
+.discount-box span{ cursor:pointer; padding-left:10px; padding-right:10px !important; height:50px; display:inline-block; border:1px solid #ccc; line-height:48px;line-height:48px; font-size:14px !important; color:#666; text-align:center; margin-right:10px; margin-top:10px; padding-top:1px; overflow:hidden;}
+.discount-box span:hover{margin-right:9px; border:2px solid #E65901; color:#E65901; height:49px; padding-left:9px; padding-right:8px; line-height:48px;padding-top:0px;}
+.discount-box .sel{margin-right:9px; padding-top:0px;  border:2px solid #E65901; color:#E65901; background:url(../../../Images/Order/NewStep/ehi_act_icon.png) no-repeat right bottom;height:49px; padding-left:9px; padding-right:8px;}
+.act-remark{ font-size:12px; color:#0088cc; font-weight:normal; display:none;}
+.ehi-act-box{ padding-left:22px; display:none;}
+.ehi-act-box span{ cursor:pointer; padding-left:10px; padding-right:10px !important; height:50px; display:inline-block; border:1px solid #ccc; line-height:48px; font-size:14px !important; color:#666; text-align:center; margin-right:10px; margin-top:10px; padding-top:1px; overflow:hidden;}
+.ehi-act-box span:hover{ margin-right:9px; border:2px solid #E65901; color:#E65901; height:49px; padding-left:9px; padding-right:8px; line-height:48px;padding-top:0px;}
+.discount-box .bold_sel{ margin-right:9px; border:2px solid #E65901; color:#E65901; height:49px; padding-left:9px; padding-right:8px; line-height:48px;padding-top:0px;}
+.ehi-act-box .sel{ margin-right:9px; padding-top:0px;  border:2px solid #E65901; color:#E65901; background:url(../../../Images/Order/NewStep/ehi_act_icon.png) no-repeat right bottom;height:49px; padding-left:9px; padding-right:8px;}
+
+/*��ֵ����*/
+.service-box{overflow:hidden; zoom:1;}
+.service-box .title{ height:43px; border-top:1px solid #ccc; border-bottom:1px solid #ccc; background:#EFEFEF; line-height:42px; font-size:16px; font-weight:bolder; text-indent:1em;}
+.service-list{ padding:20px 30px;}
+.service-list li{line-height:40px; font-size:14px; font-weight:bolder; height:60px; position:relative;}
+.service-list li input{  height:43px; display:inline-block; margin-right:10px;}
+.service-list li .service-name{line-height:16px;position:absolute; left:30px; top:13px;height:60px; font-size:14px; width:140px; font-weight:bolder;}
+.service-list li .service-price{line-height:16px;position:absolute; left:170px; top:13px;height:60px; font-size:14px; width:90px; color:#E55900; font-weight:bolder; font-family: "\5fae\8f6f\96c5\9ed1";}
+.service-list li .service-des{ position:absolute; right:200px; top:13px; height:60px; font-size:14px; width:650px; font-size:12px; color:#999; font-weight:normal; line-height:16px;}
+.service-list li .service-des a{ color:#0088cc !important; display:inline-block;}
+.service-list li .service-des a:hover{ text-decoration:underline !important;}
+.service-list li .service-price span{ font-weight:normal; color:#666; font-size:12px;}
+
+/*ʹ�õ���*/
+.item-box{overflow:hidden; zoom:1;}
+.item-box .title{ height:43px; border-top:1px solid #ccc; border-bottom:1px solid #ccc; background:#EFEFEF; line-height:42px; font-size:16px; font-weight:bolder; text-indent:1em;}
+.item-list{ padding:20px 30px;}
+.item-list li{line-height:40x; font-size:14px; font-weight:normal; height:40px; position:relative;}
+.item-list li input{  height:43px; display:inline-block; margin-right:10px;}
+.item-list li .item-name{line-height:16px;position:absolute; left:30px; top:13px;height:40px; font-size:14px; width:140px; font-weight:normal;}
+
+/*��ע��Ϣ*/
+.remark-box{overflow:hidden; zoom:1;}
+.remark-box .title{ height:43px; border-top:1px solid #ccc; border-bottom:1px solid #ccc; background:#EFEFEF; line-height:42px; font-size:16px; font-weight:bolder; text-indent:1em;}
+.remark-list{ padding:20px 30px;}
+.remark-list input{ display:inline-block; margin-right:10px;}
+.remark-list  p{height: 40px; line-height: 40px; font-size: 14px; font-weight: bolder;}
+.remark-list  .remark-txt-box{ display:none;}
+.remark-list .remark-txt{ width:800px; border:1px solid #ccc; text-indent:2em; font-family:simsun; font-size:12px; color:#666; padding:10px; height:80px;}
+
+
+/*��Ʊ��Ϣ*/
+.invoice-box{overflow:hidden; zoom:1;}
+.invoice-box .title{ height:43px; border-top:1px solid #ccc; border-bottom:1px solid #ccc; background:#EFEFEF; line-height:42px; font-size:16px; font-weight:bolder; text-indent:1em;}
+.invoice-list{ padding:20px 30px;}
+.invoice-list li{ height:40px; line-height:40px; font-size:14px; font-weight:bolder; position:relative;}
+.invoice-list li input{ display:inline-block; margin-right:10px;}
+.invoice-list li span{ display:inline-block; padding-left:20px; font-size:12px; font-weight:normal; color:#999;}
+.invoice-prompt {
+     background: #fffcd2; 
+     line-height: 1.5; 
+     font-size: 11px; 
+     color: #eb5a01; 
+     padding: 10px 12px;
+}
+.invoice-list .invoice-default{}
+.invoice-list .invoice-ck{ color:#EB5900; display:none;}
+.invoice-list .invoice-sendbox{ display:none;position:absolute; width: 365px; height:25px; right:50px; top:10px; line-height:25px; font-size:12px; font-weight:normal;}
+.invoice-list .invoice-sendbox input{ vertical-align:-2px; margin-left:10px;}
+
+.invoice-info{ display:none; margin-top:10px;}
+.invoice-info li{ position:relative; height:55px; line-height:20px; padding-top:10px;}
+.invoice-info li span{ height:20px; word-break: break-all; color:#666; width:650px; overflow:hidden;}
+.invoice-info .on{ background:#FFF5F0;}
+.invoice-info .on span{ font-weight:bolder !important;}
+.invoice-info .on .edit{ display:none;}
+.invoice-info li .edit{ position:absolute; width:80px; right:20px; top:23px; font-weight:normal;}
+.invoice-info li .edit a{ font-size:12px; font-weight:normal; color:#0088cc; cursor:pointer;}
+.invoice-info li .edit a:hover{ text-decoration:underline;}
+.invoice-info li .addnew-invoice{ color:#0088cc; /*padding-left:20px;*/font-size: 12px;}
+.invoice-info li .addnew-invoice:hover{ text-decoration:underline;}
+
+/*�⳵����Ϣ*/
+.rentcar-box{overflow:hidden; zoom:1;}
+.rentcar-box .title{ height:43px; border-top:1px solid #ccc; border-bottom:1px solid #ccc; background:#EFEFEF; line-height:42px; font-size:16px; font-weight:bolder; text-indent:1em;}
+.rentcar-list{ padding:20px 30px;}
+.rentcar-list li{ height:40px; line-height:40px; font-size:14px; font-weight:bolder;}
+.rentcar-list li input{ display:inline-block; margin-right:10px;}
+.rentcar-list li span{ display:inline-block; padding-left:20px; font-size:12px; font-weight:normal; color:#999;}
+.rentcar-list .rentcar-none li{ font-weight:normal; padding-left:24px; *padding-left:30px;}
+.rentcar-list .rentcar-none li a{ color:#0088cc; font-weight:bolder;}
+.rentcar-list .rentcar-none li a:hover{ text-decoration:underline;}
+.rentcar-list .rentcar-none li em{ display:none; font-style:normal;}
+
+.rentcar-info{ display:none;}
+.rentcar-info li{ height:35px; line-height:35px; font-size:12px; color:#666; position:relative;}
+.rentcar-info-title span{ font-weight:bolder !important; font-size:14px !important;}
+.rentcar-info li em{ font-style:normal;}
+.rentcar-info li a{ color:#0088cc;}
+.rentcar-info li span{ text-align:center; color:#666; overflow:hidden;}
+.rentcar-info li .rancar-name{ width:70px; }
+.rentcar-info li .rancar-mobile{ width:120px;}
+.rentcar-info li .rancar-paper{ width:290px;}
+.rentcar-info li .rancar-date{ width:120px;}  
+.rentcar-info .on{ background:#FFF5F0;}
+.rentcar-info .on span{ font-weight:bolder;}
+
+.rentcar-info .on .edit{ display:none;}
+.rentcar-info li .edit{ position:absolute; width:80px; right:20px; top:0px; font-weight:normal;}
+.rentcar-info li .edit a{ font-size:12px; font-weight:normal; color:#0088cc; cursor:pointer;}
+.rentcar-info li .edit a:hover{ text-decoration:underline;} 
+
+/*������ϸ*/
+
+
+.price-box-floatBtm{ bottom:147px; top:auto !important;}
+.price-detail{overflow:hidden; zoom:1; background:#FFF;}
+.price-detail .title{ height:43px; border-bottom:1px solid #ccc; color:#E65901; background:#EFEFEF; line-height:42px; font-size:16px; font-weight:bolder; text-indent:1em;}
+.price-detail li{ padding:11px; padding-left:10px; font-size:14px; font-weight:bolder; background:url(/CarRentalOnline/member/images/bg_line_dashed.png) repeat-x 0 -2px; position:relative;} 
+.price-detail li em{ color:#666; font-style:normal; font-weight:bolder; position:absolute; width:120px; text-align:right; padding-right:25px; right:0; display:inline-block; font-family: "\5fae\8f6f\96c5\9ed1";}
+.price-detail li em .display-fix{ display:inline-block !important;}
+.price-detail li em .price-drop-open{ background:url(../../../Images/Order/NewStep/price_drop_open.png) no-repeat; width:11px; height:8px;  vertical-align:middle; margin-right:-15px; margin-left:3px; cursor:pointer;}
+.price-detail li em .price-drop-close{ display:none; background:url(../../../Images/Order/NewStep/price_drop_close.png) no-repeat; width:11px; height:8px;  vertical-align:middle; margin-right:-15px; margin-left:3px; cursor:pointer;}
+.price-detail li span{ font-size:12px; color:#999; display:block; font-weight:normal;}
+.price-detail .line-clear{ background:none;}
+#pointDesc{ color:#EB5A01;}
+#pointTitle{ display:inline-block; font-size:14px; font-weight:bolder; color:#666;}
+/*#baseRateDetail span{ display: inline-block !important; width:32px; padding:4px !important;}
+#baseRateDetail p{ width:68px; text-align:center;}
+#baseRateDetail .orange{ *margin-top:5px;}*/
+.price-detail li .price-mid{ top:20px;}
+.price-detail li i{ font-size:12px; font-weight:normal; font-style:normal; display:inline-block;}
+.price-detail li input{ vertical-align:middle; width:44px; line-height:24px; height:25px; border:1px solid #999; text-indent:3px; display:inline-block;}
+.price-detail li a{ border:1px solid #0088cc; color:#0088cc; font-size:14px; font-weight:normal; display:inline-block; height:25px; line-height:25px; vertical-align:middle; width:40px; text-align:center;  position:absolute; *margin-top:1px; right:15px;}
+.price-detail li a:hover{ color:#FFF; background:#056FBB;}
+.price-detail li .error-info{ color: #ff0000;font-weight: normal;height: 25px;line-height: 25px;display: none;font-size: 12px;}
+
+.price-box{ border-top:1px solid #ccc; padding:20px 10px 10px 10px; text-align:right;}
+.price-box .price-txt{font-family: "\5fae\8f6f\96c5\9ed1"; font-size:20px;}
+.price-box .price-total{padding-left:20px; position:relative; font-size:35px;font-family: "\5fae\8f6f\96c5\9ed1"; color:#EB5A00;}
+.price-box .price-total em{ font-size:14px;  color:#EB5A00; font-style:normal; top:5px; *top:25px; left:5px; position:absolute; display:inline-block;}
+.price-btnbox{ padding:0 10px 20px 0; text-align:center;}
+.price-btnbox a{ width:160px; height:39px; display:inline-block; color:#fff; line-height:37px; text-align:center; font-size:14px; font-weight:bolder; background:url(/CarRentalOnline/member/images/step2_btn.png) no-repeat;}
+.price-btnbox a:hover{ background-position:0 -40px; line-height:37px;}
+
+.price-backshow { font-size: 16px; text-align: right; padding:0 10px 10px 0; }
+.price-backshow span { color: #eb5a00; font-family: "\5fae\8f6f\96c5\9ed1"; }
+
+
+/*������ϸ�б�����*/
+.price-drop-box{ display:none; padding:10px 0; overflow:hidden; zoom:1;}
+.price-drop-box span{float: left; padding:4px 8px; background:#EFEFEF; line-height:20px; margin-right:6px; margin-bottom:10px;}
+#serviceList span{}
+#promotionList span{}
+.price-drop-box span p{ text-align:center; }
+.price-drop-box span .orange{ font-weight:bolder; color:#EB5A01;font-family: "\5fae\8f6f\96c5\9ed1";}
+
+#serviceList span,
+#promotionList span{float: none; padding:4px !important;}
+#serviceList p,
+#promotionList p{ width:auto; text-align:left;}
+#serviceList .orange,
+#promotionList .orange{float: right;  font-family: "\5fae\8f6f\96c5\9ed1";}
+
+.price-help{border-top:1px solid #ccc; color:#EB5A01; background:#FFFCD2; padding:15px; line-height:20px;}
+
+.price-drop-box-month{overflow:hidden; zoom:1; margin-top:10px; display:none;}
+.price-drop-box-month .monthly-title{ background:#EFEFEF; height:25px; line-height:25px; color:#666;}
+.price-drop-box-month .monthly-title span{ display:inline-block; font-size:14px; width:32px; *width:30px; text-align:center;}
+.price-drop-box-month p{ height:25px; line-height:25px; color:#E65901; font-size:12px;}
+.price-drop-box-month b{ font-weight:normal; color:#E65901; font-size:12px; width:32px; text-align:center; display:inline-block;}
+
+
+/**step popup style**/
+.div-myshowbox{ /*height:420px !important;*/}
+.edit-invoice-box{ padding:10px 20px; color:#666;}
+.edit-invoice-box .invoice-popup-title{ font-size:18px; font-family: "\5fae\8f6f\96c5\9ed1"; color:#333;}
+.edit-invoice-box ul{ margin-top:30px;}
+.edit-invoice-box ul li { line-height:40px; _padding:10px 0; position:relative;}
+.edit-invoice-box ul li input{ border:none; border-bottom:1px solid #999; margin-left:10px; width:300px; font-family:Tahoma, ����; color:#333; position:absolute; left:52px; top:12px; *top:0px;}
+.edit-invoice-box ul li .input-select{position:absolute; left:62px; top:12px; *top:0px;}
+.edit-invoice-box .btn-box{ text-align:center; margin-top:20px;}
+.edit-invoice-box .btn-box a{ margin:0 10px; font-size:14px; font-weight:bolder; display:inline-block;  width:90px; height:36px; background:url(../../../Images/Order/NewStep/step2_btn.png) no-repeat; line-height:34px; text-align:center;}
+.edit-invoice-box .btn-box .save-invoice{ background-position:0 -80px; color:#fff;}
+.edit-invoice-box .btn-box .save-invoice:hover{ background-position:0 -117px; color:#fff;}
+.edit-invoice-box .btn-box .cancel-invoice{ background-position:0 -154px; color:#0088cc;}
+.edit-invoice-box .btn-box .cancel-invoice:hover{ background-position:0 -191px; color:#fff;}
+
+.edit-rentcar-box{ padding:10px 20px; color:#666;}
+.edit-rentcar-box .rentcar-popup-title{ font-size:18px; font-family: "\5fae\8f6f\96c5\9ed1"; color:#333;}
+.edit-rentcar-box ul{ margin-top:30px;}
+.edit-rentcar-box ul li { line-height:40px;_padding:1px 0; position:relative;}
+.edit-rentcar-box ul li span{ width:80px; display:inline-block; text-align:right;}
+.edit-rentcar-box ul li input{ border:none; border-bottom:1px solid #999; margin-left:10px; width:285px;  font-family:Tahoma, ����; color:#333;position:absolute; left:75px; top:12px; }
+.edit-rentcar-box ul li select{ *vertical-align:middle; width:100px; height:25px;  font-family:Tahoma, ����;}
+
+.edit-rentcar-box .btn-box{ text-align:center; margin-top:20px;}
+.edit-rentcar-box .btn-box a{ margin:0 10px; font-size:14px; font-weight:bolder; display:inline-block;  width:90px; height:36px; background:url(../../../Images/Order/NewStep/step2_btn.png) no-repeat; line-height:34px; text-align:center;}
+.edit-rentcar-box .btn-box .save-rentcar{ background-position:0 -80px; color:#fff;}
+.edit-rentcar-box .btn-box .save-rentcar:hover{ background-position:0 -117px; color:#fff;}
+.edit-rentcar-box .btn-box .cancel-rentcar{ background-position:0 -154px; color:#0088cc;}
+.edit-rentcar-box .btn-box .cancel-rentcar:hover{ background-position:0 -191px; color:#fff;}
+
+
+
+/*��֤�ֻ�-����*/
+.mp-confirm-box{ padding:10px; position:relative;}
+.mp-confirm-title{ font-size:16px; color:#333; font-weight:bolder; height:30px; line-height:30px; border-bottom:1px solid #ccc;}
+.mp-confirm-remark{background:url(../../../Images/Order/NewStep/reg_error_bg.png) no-repeat 0 7px; color:#333; height:25px; line-height:25px; text-indent:20px;}
+.mp-confirm-form{ width:477px; height:200px; position:absolute; right:0; top:90px;}
+.mp-confirm-form p{ height:40px; display:block; margin-top:0px;}
+.mp-confirm-form p i{ height:30px; line-height:30px; font-style:normal; width:70px; font-size:14px; color:#333; display:inline-block; vertical-align:middle; text-align:right; }
+.mp-confirm-form p input{border-left:1px solid #bbbbbb; border-top:1px solid #bbbbbb; border-right:1px solid #dddddd; border-bottom:1px solid #dddddd;height:30px; line-height:30px; font-size:14px; color:#666; text-indent:5px; margin-left:5px; margin-right:5px; vertical-align:middle; display:inline-block; width:145px;}
+.mp-confirm-form p input:focus{ border:1px solid #0088cc;}
+.mp-confirm-form p a{ background:#F9F9F9; width:140px; border:1px solid #bbbbbb; text-align:center; height:30px; line-height:30px; color:#333; text-decoration:none; display:inline-block; vertical-align:middle; font-size:14px; cursor:pointer; text-decoration:none;}
+.mp-confirm-form p span{ background:#F9F9F9; width:140px; border:1px solid #bbbbbb; text-align:center; height:30px; line-height:30px; color:#ccc; text-decoration:none; display:inline-block; vertical-align:middle; display:none;}
+.mp-confirm-msg{ padding-left:75px;}
+.mp-confirm-msg .mpinfo-confirm{ display:block; background:url(../../../Images/Order/NewStep/reg_corr_bg.png) no-repeat 0 5px; height:20px; line-height:20px; padding-left:15px; font-size:12px; color:#ccc; }
+.mp-confirm-msg .mpcode-error{ display:block; background:url(../../../Images/Order/NewStep/reg_error_bg.png) no-repeat 0 5px; height:20px; line-height:20px; padding-left:15px; font-size:12px; color:#F00; }
+.mp-confirm-btn{ margin-top:20px;}
+.mp-confirm-btn a{ width:147px; height:37px; line-height:35px; text-align:center; font-size:20px; color:#fff; display:inline-block; background:url(../../../Images/Order/NewStep/reg_btn_step1.png) no-repeat 0 -76px; text-decoration:none; font-family: "\5fae\8f6f\96c5\9ed1"; margin-left:75px;}
+.mp-confirm-btn a:hover{ background:url(../../../Images/Order/NewStep/reg_btn_step1.png) no-repeat 0 -114px;}
+
+/*��д֤����Ϣ-����*/
+.card-confirm-box{ padding:10px; position:relative;}
+.card-confirm-title{ font-size:16px; color:#333; font-weight:bolder; height:30px; line-height:30px; border-bottom:1px solid #ccc;}
+.card-confirm-remark{background:url(../../../Images/Order/NewStep/reg_error_bg.png) no-repeat 0 7px; color:#333; height:25px; line-height:25px; text-indent:20px;}
+.card-confirm-form{ width:590px; height:200px; position:absolute; right:0; top:80px;}
+.card-confirm-form p em{ font-size:16px; color:#666;font-family: "\5fae\8f6f\96c5\9ed1"; font-style:normal;}
+.card-confirm-form p{ display: inline-block;margin-top: 10px;}
+.card-confirm-form p input{ width:200px; height:30px; border-left:1px solid #BBBBBB; border-top:1px solid #BBBBBB; border-right:1px solid #DDDDDD; border-bottom:1px solid #DDDDDD; color:#666; text-indent:5px; display:inline-block; vertical-align:middle; margin-left:10px;}
+.card-confirm-form p i{ font-size:14px; color:#EE5909; display:inline-block; vertical-align:middle; font-style:normal; font-weight:bolder; margin-left:5px; margin-right:5px;}
+.card-confirm-form p span{ vertical-align:middle; display:inline-block; color:#999;}
+.card-confirm-btn{ margin-top:60px;}
+.card-confirm-btn a{ width:147px; height:37px; line-height:35px; text-align:center; font-size:20px; color:#fff; display:inline-block; background:url(../../../Images/Order/NewStep/reg_btn_step1.png) no-repeat 0 -76px; text-decoration:none; font-family: "\5fae\8f6f\96c5\9ed1"; margin-left:200px;}
+.card-confirm-btn a:hover{ background:url(../../../Images/Order/NewStep/reg_btn_step1.png) no-repeat 0 -114px;}
+.card-confirm-box #errorMsg{color: #ff0000;display: block; margin-left: 20px;}
+
+/*jqury dd css*/
+.ddcommon {position:relative;display:-moz-inline-stack; zoom:1; display:inline-block; *display:inline; cursor:default; vertical-align:middle; margin-right:0px; margin-top:0px; *margin-top:0px; margin-left:6px; *margin-left:4px;}
+.ddcommon ul{padding:0;margin:0;  _height:220px; overflow-y:auto;}
+.ddcommon ul li{list-style-type:none;}
+
+.ddcommon .disabled img, .ddcommon .disabled span, .ddcommon.disabledAll{
+opacity: .5; /* standard: ff gt 1.5, opera, safari */
+-ms-filter:"alpha(opacity=50)"; /* ie 8 */
+filter:alpha(opacity=50); /* ie lt 7 */
+-khtml-opacity:.5; /* safari 1.x */
+-moz-opacity:.5; /* ff lt 1.5, netscape */
+color:#999999;
+}
+.ddcommon .clear{clear:both}
+.ddcommon input.text{color:#7e7e7e;padding:0 0 0 0; position:absolute; background:#fff; display:block; width:98%; height:98%; left:2px; top:0; border:none;}
+.ddOutOfVision{position:relative; display:-moz-inline-stack; display:inline-block; zoom:1; *display:inline;}
+img.fnone{float:none !important}
+.ddcommon .divider{width:0; height:100%; position:absolute;}
+.ddcommon .ddArrow{display:inline-block; position:absolute; top:50%; right:4px;}
+.ddcommon .ddArrow:hover{background-position:0 100%;}
+.ddcommon .ddTitle{padding:0; position:relative; display:inline-block; width:100%}
+.ddcommon .ddTitle .ddTitleText{display:block; height:30px; padding-left:5px; line-height:30px; font-size:14px;}
+.ddcommon .ddTitle .ddTitleText .ddTitleText{padding:0;}
+.ddcommon .ddTitle .description{display:block;}
+.ddcommon .ddTitle .ddTitleText img{position:relative; vertical-align:middle; float:left}
+.ddcommon .ddChild{position:absolute;display:none;width:100%; overflow-y:auto; height:100px !important; overflow-x: hidden; zoom:1; z-index:9999}
+.ddcommon .ddChild li{clear:both;}
+.ddcommon .ddChild li .description{display:block;}
+.ddcommon .ddChild li img{border:0 none; position:relative;vertical-align:middle;float:left}
+.ddcommon .ddChild li.optgroup{padding:0;}
+.ddcommon .ddChild li.optgroup .optgroupTitle{padding:0 5px; font-weight:bold; font-style:italic}
+.ddcommon .ddChild li.optgroup ul li{padding:5px 5px 5px 15px}
+.ddcommon .noBorderTop{border-top:none 0  !important; padding:0; margin:0;}
+
+/*************** default theme **********************/
+.dd{border-left:1px solid #bbbbbb; border-top:1px solid #bbbbbb; border-right:1px solid #dddddd; border-bottom:1px solid #dddddd;}
+.dd .ddArrow{width:16px;height:16px; margin-top:-8px; background:url(../../../Images/Order/NewStep/price_drop_open.png) no-repeat 0 3px;}
+.dd .ddArrow:hover{background-position:0 3px;;}
+.dd .ddTitle{color:#666;}
+.dd .ddTitle .ddTitleText{}
+.dd .ddTitle .ddTitleText .ddTitleText{padding:0;}
+.dd .ddTitle .description{font-size:12px; color:#666}
+.dd .ddTitle .ddTitleText img{padding-right:5px;}
+.dd .ddChild{border:1px solid #c3c3c3; background-color:#fff; left:-1px;}
+.dd .ddChild li{padding:0 5px; background-color:#fff; border-bottom:1px solid #c3c3c3; color:#666; line-height:30px;}
+.dd .ddChild li .description{color:#666;}
+.dd .ddChild li .ddlabel{color:#666; font-size:14px;}
+.dd .ddChild li.hover{background-color:#f2f2f2}
+.dd .ddChild li img{padding:0 6px 0 0;}
+.dd .ddChild li.optgroup{padding:0;}
+.dd .ddChild li.optgroup .optgroupTitle{padding:0 5px; font-weight:bold; font-style:italic}
+.dd .ddChild li.optgroup ul li{padding:5px 5px 5px 15px}
+.dd .ddChild li.selected{background-color:#d5d5d5; color:#666;}
+
+#card-type_msdd{ width:125px !important; height:30px !important;}
+
+.enabled:hover{ color: #ff0000 !important;}
+
+.customSelect {vertical-align:middle;font-size: 14px;height:31px;line-height:31px;padding-left:5px;margin-right:5px; background: url(../../../Images/Order/NewStep/option_bg.gif) no-repeat right center;border: 1px solid #ccc;color: #555;}
+.customSelectInner { width: 158px !important;}
+
+.hidelable{display:none !important;}
+.sub-load{ width:160px; height:39px; display:inline-block; background:url(../../../Images/Order/NewStep/loading_stp2.gif) no-repeat;}
+
+/* */
+.msg-error { padding: 0!important; }
+.msg-error-content {padding-top: 50px; text-align: center;font-size: 14px;}
+
+#bgWindow { background-image: url(../../../Images/Order/NewStep/loading_stp2.gif)!important;background-position: center center!important;background-repeat: no-repeat!important;}
+
+/*֤��SELECT*/
+.card-confirm-form .sel-card{ width:120px;}
+.sel-card-box{ width:120px;  border:1px solid #bbb; position:absolute; background:#FFF; left:78px; top:125px; display:none;}
+.sel-card-box span{ display:block; padding:5px 5px; font-size:14px;  color:#333; cursor:pointer;}
+.sel-card-box span:hover{ background: #0088cc; color:#fff;}
+
+.hourly-mid-fix{ top:12px !important;}
+.car-remark{ font-size:16px; color:#999;  font-family: "\5fae\8f6f\96c5\9ed1"; margin-top:-4px;}
+
+/*�ݳ���Ա�����˺���*/
+.insurance-wrap{ height:80px !important; line-height:16px !important;}
+.insurance-box{ width:100%; margin-top:-10px; zoom:1; height:80px; }
+.insurance-list{ width:100%; position:relative; height:40px;}
+.insurance-list input{ position:absolute; width:16px; height:16px !important; left:20px; top:10px;} 
+.insurance-list .insurance-name{ font-size:14px; position:absolute; width:100px; font-weight:bolder; color:#666; left:45px; top:10px;}
+.insurance-list .insurance-price{ font-size:12px; position:absolute; width:100px; font-weight:bolder; color:#E55900; left:170px; top:10px}
+.insurance-list .insurance-des{ font-size:12px; position:absolute; width:600px; font-weight:normal; color:#999; left:270px; top:10px}
+.insurance-list .insurance-des p{ position:relative;}
+.insurance-list .insurance-des p i{ display:inline-block; position:absolute; left:0px; top:3px;}
+.insurance-list .insurance-des p a{ display:inline-block;position:absolute; left:50px; top:3px; color:#0088cc; margin-left:5px;}
+.insurance-list .insurance-des p a:hover{ text-decoration:underline;}
+
+/*�Żݻ*/
+.corperate-box span em{ background:#e55900; color:#fff; position:absolute; width:100px; height:40px; line-height:20px; font-weight:normal; font-size:12px; padding-left:10px; padding-right:10px; z-index:99998; overflow:hidden; display:none;} 
+.corperate-box span em a{ text-decoration:underline; color:#fff; }
+
+/*��ӷ�Ʊupdate*/
+.edit-invoice-box ul li span{ text-align: right;width: 57px;display: inline-block; }
+.invoice-type{ font-size:14px; padding-top:20px; margin-bottom:-10px;}
+.invoice-type i{ display:inline-block; margin-right:20px; font-style:normal; margin-left:5px;}
+.edit-invoice-box ul li #ddlCities{ left:210px;}
+
+
+/*�Żݹ���*/
+.activity-li { position: relative; }
+.float-box { position: absolute; margin-top: 55px; display: none; width: 380px; z-index:999;}
+.float-top { background:url(../../../Images/Order/NewStep/float-top.png) no-repeat; position: relative; z-index: 1; margin-left: 18px; width: 11px; height: 9px; overflow: hidden; }
+.float-info { margin-top: -1px; padding: 15px; background: #fffcd2; border: 1px solid #ffcbab; font-size: 12px; }
+.float-info h3 { margin-bottom: 5px;}
+.float-info li { line-height: 20px;}
+
+/**Ԥ������˵��**/
+.book-rule { padding: 0 25px; font-size: 12px; color: #6b6b6b;font-family: Microsoft YaHei;}
+.book-rule h3 { font-size: 18px; color: #333; padding-top: 20px;}
+.book-rule h4 { font-size: 14px; color: #eb5c00;}
+.ruleinfo ul li {padding-top: 20px;}
+.ruleinfo ul li ol li { padding-top: 2px;}
+
+/*��ƷE��ʹ�ù���*/
+.rule-giftcard { padding: 10px 20px; }
+.rule-giftcard h3 { font-family: "\5FAE\8F6F\96C5\9ED1"; font-size: 18px; color: #333; padding-top: 15px; }
+.rule-giftcard li { padding-top: 20px; }
+.rule-giftcard p { line-height: 30px; padding-left: 15px; color: #7b7b7b; }
+
+*html { background: url(about:blank); }
+.myshowbox { position: fixed; top: 50%; left: 50%; z-index: 99999; padding: 5px; background: #0088cc; box-shadow: 0 0 5px #000; overflow: hidden; _position: absolute; _margin-top: 0; }
+.myshowbox .title { padding: 0 10px; height: 30px; line-height: 31px; font-size: 14px; font-weight: bold; border-bottom: solid 2px #469DC1; overflow: hidden; zoom: 1; }
+.myshowbox-container { position: relative; background: #fff; overflow: hidden; zoom: 1; }
+.myshowbox-container .btn-close { position: absolute;z-index: 9; top: 5px; right: 5px; width: 20px; height: 20px; background: url(/Content/Images/Order/Step4/btn-myshow-close.png) no-repeat; display: block; }
+#bgScreen, #bgIFrame { position: fixed; top: 0; left: 0; z-index: 999; width: 100%; background: #000; filter: alpha(opacity=20); opacity: 0.2; _position: absolute; _top: expression(documentElement.scrollTop+documentElement.clientHeight-this.offsetHeight ); _left: expression(documentElement.scrollLeft+documentElement.clientWidth-this.offsetWidth); }
+#bgIFrame { z-index: 998; filter: alpha(opacity=0); opacity: 0; }

@@ -1,0 +1,92 @@
+﻿
+.payment-wrap{ width:100%;}
+
+/*STEP3支付信息*/
+.payment-info-box{ overflow:hidden; zoom:1; background:#FFF; width:1180px; margin:auto;  margin-top:10px;  border:1px solid #ccc;}
+.pay-success{ float:left; display:inline-block;font-family: "\5fae\8f6f\96c5\9ed1"; padding:30px; font-size:25px; height:30px; line-height:30px; width:250px; }
+.pay-success span{ background:url(/CarRentalOnline/member/images/step3_icon.png) no-repeat; width:32px; height:32px; display:inline-block; vertical-align:middle; margin-right:10px;}
+.pay-help{ display:inline-block; width:650px; padding:30px 0; line-height:30px; font-size:14px;}
+.pay-help span{ font-weight:bolder; color:#EB5900;}
+.payment-detail{ background:url(/CarRentalOnline/member/images/bg_line_dashed.png) repeat-x; width:1085px; margin-left:10px; font-weight:bolder; padding:30px 30px 30px 62px; font-size:14px;}
+.payment-detail span{ display:inline-block; margin-right:90px;}
+.payment-detail em{ font-weight:normal; font-style:normal; padding-right:10px; font-size:22px; color:#EB5900;}
+.payment-link{ padding-left:72px; padding-bottom:30px; padding-top:30px; background:url(/CarRentalOnline/member/images/bg_line_dashed.png) repeat-x; }
+.payment-link a{ color:#0088cc; font-weight:bolder; font-size:14px; display:inline-block; margin-right:70px;}
+.payment-link a:hover{ text-decoration:underline;}
+
+/*STEP3 banner*/
+.step3-banner{margin:auto;  margin-top:10px; overflow:hidden; zoom:1; background:#FFF; width:1180px; height:166px; border:1px solid #ccc;}
+.step3-banner .barcode{ float:left;margin-left:70px; width:170px; margin-top:25px; height:85px; background:url(../../../Images/Order/NewStep/step3_barcode.png) no-repeat; padding-left:150px; font-size:16px;font-family: "\5fae\8f6f\96c5\9ed1"; padding-top:35px;}
+.step3-banner-helper{ margin-left:200px; _margin-left:120px; float:left; height:100px; width:500px; margin-top:30px;} 
+.step3-banner-helper p{ display:block; width:600px; font-size: 16px; font-family: "\5fae\8f6f\96c5\9ed1"; padding-bottom:10px;}
+.step3-banner-helper span{ display:block; line-height:30px;}
+
+.payment-remark{ background:#F9F9F9; padding:10px 20px; width:750px; margin-left:62px; margin-bottom:20px;}
+.payment-remark p{ font-size:12px; color:#999; line-height:25px;}
+.payment-remark p b{ font-size:14px; font-weight:bolder; color:#666; line-height:30px;}
+.payment-remark p em{ font-style:normal; color:#EB5C00; font-weight:bolder;}
+.payment-remark p a{ display:inline-block; margin-left:10px; color:#0088cc; text-decoration:underline;}
+.payment-remark p b i{ font-weight:normal; font-style:normal;}
+.highlight{ background:#FFFBCC !important; font-size:14px !important; }
+.highlight p{color:#EB5C00!important; font-size:14px !important;font-weight: 700;}
+.no-margin{ margin-bottom:0px !important;}
+
+/*STEP3 在线支付*/
+.pay-online-wrap{ width:1180px; margin:auto; margin-top:20px;}
+.pay-online-tabbox{ width:1180px; height:35px; _position:absolute;}
+.pay-online-tabbox .pay-online-title{ width:120px; height:35px; font-size:14px; font-weight:bolder; line-height:35px; text-align:center; float:left;}
+.pay-online-tabbox .pay-online-tab{ width:100px; height:35px; float:left; margin-right:15px; border:1px solid #ccc; font-size:14px; line-height:32px; text-align:center; border-bottom:none; background:#FFF; cursor:pointer;}
+.pay-online-tabbox .active{ height:36px; border:2px solid #0088cc; font-weight:bolder; border-bottom:none;}
+.pay-online-box{border:2px solid #0088cc; padding:30px; background:#FFF; margin-top:1px; _margin-top:36px;}
+.paybox1 .bank-list li{ width:170px; display:inline-block; height:31px; margin:10px 50px; *display:inline; zoom:1; *width:180px; *margin:10px 45px;}
+.paybox1 .bank-list li input{ height:31px; margin-right:10px; vertical-align:middle;}
+.paybox1 .bank-list li img{ border:1px solid #E2E2E2;vertical-align:middle;}
+.paybox2, .paybox3{ display:none;}
+.payment-btnbox{ text-align:center; height:30px; margin-top:20px; margin-bottom:10px;}
+.payment-btnbox a{ width:160px; height:39px; background:url(/CarRentalOnline/member/images/step3_btn.png) no-repeat; font-size:16px; color:#FFF; font-weight:bolder; display:inline-block; line-height:37px;}
+.payment-btnbox a:hover{background:url(/CarRentalOnline/member/images/step3_btn.png) no-repeat 0 -40px;}
+
+/**step popup style**/
+.pay-remark-box{ margin:10px; padding:10px; color:#666; position:relative;}
+.pay-remark-box .pay-popup-title{ font-size:18px; font-family: "\5fae\8f6f\96c5\9ed1"; color:#333;}
+.pay-remark-box .pay-popup-fail{ width:290px; text-align:center; font-size:14px; font-weight:bolder; height:180px; line-height:180px; position:absolute; left:0; top:30px;}
+.pay-remark-box .pay-popup-success{ width:290px; text-align:center; font-size:14px; font-weight:bolder; height:180px; line-height:180px; color:#0088cc; position:absolute; right:0; top:30px;}
+.pay-remark-box .line{ width:1px; border-left:1px solid #999; height:180px; position:absolute; font-size:0px; position:absolute; left:290px; top:35px;}
+
+.pay-remark-box .pay-popup-btn{ text-align:center; height:30px; }
+.pay-remark-box .pay-popup-btn a{ width:90px; height:30px; display:inline-block; text-align:center; line-height:28px; color:#FFF; font-weight:bolder; background:url(../../../Images/Order/NewStep/step3_btn.png) no-repeat;}
+.pay-remark-box .pay-popup-btn .popup-pay-fail{ background-position:0 -80px; position:absolute; left:100px; top:200px;}
+.pay-remark-box .pay-popup-btn .popup-pay-fail:hover{ background-position:0 -111px;}
+.pay-remark-box .pay-popup-btn .popup-pay-success{ background-position:0 -142px; color:#0088cc; position:absolute; right:100px; top:200px;}
+.pay-remark-box .pay-popup-btn .popup-pay-success:hover{ background-position:0 -173px; color:#fff;}
+
+/**航班信息**/
+.flight-info-remark{ padding-left:62px; margin-left:10px; margin-bottom:20px;}
+.flight-info-remark p b{ font-size:14px; display:inline-block; vertical-align:middle;}
+.flight-info-remark p input{ margin-left:5px; width:142px; height:29px; border:1px solid #AEAEAE; color:#999; line-height:29px; text-indent:5px; display:inline-block; vertical-align:middle;}
+.flight-info-remark p a{width:50px; height:29px; line-height:29px; display:inline-block; text-align:center; vertical-align:middle; color:#0088cc; border:1px solid #0088cc; margin-left:-1px;
+}
+.flight-info-remark p a:hover{ background:#0088cc; color:#fff;}
+.flight-info-remark p span{ display:inline-block; vertical-align:middle; color:#F00; margin-left:10px;} 
+.flight-info-remark p em{ font-style:normal; color:#999; height:20px; line-height:20px;}
+
+/*国庆弹框*/
+.con-tit{ font-size:18px; font-family: "\5fae\8f6f\96c5\9ed1"; color:#333; margin-top:10px;}
+.con-con{font-size:14px; color:#666; text-indent:2em; line-height:25px; margin-top:60px; margin-bottom:30px;}
+.con-btn a{ margin-left:5px; margin-right:5px; text-align:center; width:160px; height:39px; background:url(../../../Images/Order/NewStep/step3_btn.png) no-repeat; font-size:14px; color:#FFF; font-weight:normal; display:inline-block; line-height:37px;}
+.con-btn a:hover{background:url(../../../Images/Order/NewStep/step3_btn.png) no-repeat 0 -40px;}
+.con-btn{ text-align:center;}
+
+
+
+.clearfix:after { content: "."; clear: both; display: block; height: 0; visibility: hidden; }
+.clearfix { zoom: 1; }
+.wx-pay { padding-left: 60px; display: none;}
+.p-w-box { width: 300px; float: left;}
+.p-w-hd { width: 300px; text-align: center;}
+.pw-cur span { color: #ff5d5b; font-weight: bold;}
+.pw-reset a { width: 120px; height: 30px; line-height: 30px; text-decoration: none; display: inline-block; background: #ff7674; color: #fff; font-size: 14px; border-radius: 5px; -webkit-border-radius: 5px; -moz-border-radius: 5px;margin: 0 auto;}
+.pw-box-hd { width: 298px; height: 298px; border: 1px solid #ddd; margin: 20px 0; }
+.pw-box-hd img { width: 298px; height: 298px;}
+.pw-box-ft { background: #ff7674; padding: 8px 0; color: #fff; font-size: 14px; text-align: center;}
+.p-w-sidebar { width: 379px; height: 421px; background: url(http://image.1hai.cn/front/activity/20160818/phone-bg.png) no-repeat; float: left; margin-left: 20px;}

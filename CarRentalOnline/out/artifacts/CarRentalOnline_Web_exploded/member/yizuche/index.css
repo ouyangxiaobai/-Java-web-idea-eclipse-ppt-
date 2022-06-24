@@ -1,0 +1,102 @@
+﻿@charset "utf-8";
+/**************
+ index.css Document
+ Author:james;
+ Edited Time:2013-11-06;
+ Updated By:james;
+ Updated Time:2013-11-07;
+ Website:http://www.diyou.cn 
+***************/
+ 
+
+
+ 
+
+
+.about_banner{ width:100%; overflow:hidden; z-index:-999; height:420px; position:relative;}
+
+
+
+.about_banner img{ position:absolute; left:50%; margin-left:-960px;}
+
+
+
+
+
+.bluebg{ background:#0f9edc;}
+.about_hd{ border-bottom:1px solid #a3a3a3; width:350px; height:32px; margin: 0 auto 80px; padding-top: 50px; position:relative;}
+.about_hd h2{ position:absolute; background:#fff; font-size:32px;color: #333; line-height: 32px;height: 32px;text-align: center; width: 160px; top: 60px; left: 50%; margin-left: -80px;}
+
+
+.about_hd p{ text-align:center; font-size: 14px; position: absolute; top: 105px; width: 100%;}
+.about_bd{ width:100%; overflow:hidden;}
+.about_company_pic{width: 300px;float: left; padding: 7px;border: 1px solid #e6e6e6;background: #fff;margin-right: 55px;}
+.about_company_text{width: 628px;float: left;display: inline-block;margin: 30px 0;font-size: 14px;line-height: 35px;text-indent: 10px;}
+.about_num{ margin:50px 0px 80px;}
+
+
+
+.about_num li{ float:left; font-size:18px; padding-right:30px; line-height:30px;}
+.about_num li span{ font-size:24px; color:#26a2df; font-weight:bold;}
+
+
+
+
+/*公司团队*/
+.team_hd{width: 100%;padding: 30px 0px 50px;overflow: hidden; }
+.team_hd ul{margin-right: -5px;zoom: 1;}
+.team_hd ul li{padding-top: 5px;float: left;text-align: center; position:relative;}
+.team_hd ul li img{width: 125px;height: 125px;border: 5px solid #e6e6e6;cursor: pointer;border-radius: 67.5px;margin-right: 5px;}
+.team_hd ul .on img{border-color: #45b8ef;}
+.team_hd ul .on i{ width:0px; height:0px; border: 15px solid transparent; border-bottom: 15px solid #EEE; position: absolute; bottom: -50px; left: 50%; margin-left: -15px;}
+.team_hd .Prev{position: absolute;right: 0;top: 390px;display: block;width: 40px;height: 40px;z-index: 100;   right: 100px;}
+.team_hd .Next{position: absolute;top: 390px;display: block;width: 40px;height: 40px;z-index: 100;  left: 100px;}
+.team_bd .iconbox{ width:590px !important;}
+.team_bd { background:#eee;}
+.team_bd{width: 100%;overflow: hidden;}
+.team_bd li{padding: 39px 0 60px;}
+.team_bd li .teamname{width: 100%;text-align: center;}
+.team_bd li .teamname .teamname_cn{font-size: 28px;color: #333;line-height: 35px;margin-bottom: 10px;}
+.team_bd li .teamname .teamname_zw{font-size: 24px;color: #45b8ef;line-height: 30px;}
+.team_bd li .teamname_con{display: inline-block;font-size: 14px;line-height: 35px;}
+/*公司理念*/
+.philosophybg{width: 100%;background: url(images/about_philosophy.jpg) no-repeat center top;height: 622px;display: inline-block;}
+.philosophy .about_hd{ border-bottom:1px solid  #999; color:#EFEFEF;}
+.philosophy h2{  color:#000;}
+.philosophy ul{width: 100%;}
+.philosophy li{width: 295px;float: left; border:3px solid #EFEFEF;background: #fff;border-radius: 8px;padding-bottom: 20px; display: inline-block;height: 380px;}
+.philosophy li dl{width: 100%;}
+.philosophy li dl dt img{width: 295px;height: 193px;}
+.philosophy li dl dd{width: 80%;margin: 15px 10% 10px;display: inline-block;}
+.philosophy li dl .philo-tit{text-align: center;font-size: 20px;line-height: 32px;color: #333;overflow: hidden;white-space: nowrap;text-overflow: ellipsis;display: inline-block;}
+.philosophy li dl .philo-con{font-size: 14px;line-height: 28px;color: #999999;}
+.philosophy .philo-limt{margin: 0 42px;}
+/*公司资质*/
+.company-qualification{width: 100%;display: inline-block;padding: 10px 0 30px;}
+.compicScroll{width: 1000px;overflow: hidden;position: relative;}
+.compicScroll .hd2{overflow: hidden;height: 30px;background: #fff;padding: 0 10px;}
+.compicScroll .hd2 ul{width: 130px;overflow: hidden;zoom: 1;zoom: 1;text-align: center;margin: 10px auto 0;}
+.compicScroll .hd2 ul li{float: left;width: 16px;height: 16px;overflow: hidden;margin-right: 10px;text-indent: -999px;cursor: pointer;background: #d3d3d3;border-radius: 8px;}
+.compicScroll .hd2 ul .on{background: #59aef6;}
+.compicScroll .bd2{padding: 10px 0;}
+.compicScroll .bd2 ul{overflow: hidden;zoom: 1;}
+.compicScroll .bd2 ul li{margin: 0 1px;float: left;_display: inline;overflow: hidden;text-align: center;}
+.compicScroll .bd2 ul li .pic{text-align: center;}
+.compicScroll .bd2 ul li .pic img{width: 248px;height: 180px;display: block;}
+.company-showcase{width: 100%;display: inline-block;background: #f1f1f1;}
+/*环境展示*/
+.company-showcase-con{width: 100%;margin:15px auto 75px;display: inline-block;}
+.company-showcase-con ul li{width: 250px;height: 204px;float: left;position: relative;overflow: hidden;}
+.company-showcase-con .dask{width: 250px;height:164px;padding: 20px 0;background: #45b8ef;opacity: 0.8;position: absolute;left: 0; top:-204px;}
+.company-showcase-con .dask p{color: #fff;font-size: 20px;text-align: center;line-height: 184px;}
+
+/*团队风采*/
+.our_history{padding:0px 0px 50px;}
+.our_history .about_hd{ color:#fff; border-bottom:1px solid #fff;}
+.our_history .about_hd h2{ background: #0F9EDC; color: #fff;}
+.our_history ul{width: 1200px;}
+.our_history li{width: 260px;height: 212px;display:inline-block;vertical-align:top;zoom:1;*display:inline;margin-right: 85px;}
+.our_history li .time{font: 50px "Microsoft Yahei";text-align:center;color: #fff;font-weight: bold;padding-bottom: 15px;}
+.our_history li .text{text-align:left;color:white;line-height: 20px;font-size: 14px;}
+
+ 

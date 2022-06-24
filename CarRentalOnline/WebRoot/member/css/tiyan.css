@@ -1,0 +1,701 @@
+@charset "utf-8";
+
+/* CSS Document */ /* CSS Document */ /*---all-css(reset)---*/
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,button,select,textarea,p,blockquote,th,td
+	{
+	margin: 0;
+	padding: 0;
+}
+
+html,body {
+	background-color: #ffffff;
+}
+
+button,input,select,textarea {
+	font-size: 100%;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+sup {
+	vertical-align: text-top;
+}
+
+sub {
+	vertical-align: text-bottom;
+}
+
+fieldset,img {
+	border: 0 none;
+}
+
+h1,h2,h3,h4,h5,h6 {
+	font-weight: normal;
+	font-size: 100%;
+}
+
+address,cite,dfn,em,var {
+	font-style: normal;
+}
+
+ol,ul,li {
+	list-style: none outside none;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+.clear_float:after {
+	display: block;
+	visibility: hidden;
+	height: 0;
+	clear: both;
+	content: ".";
+}
+
+.clear_float {
+	display: block;
+	zoom: 1;
+}
+
+.center {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.radio-checkbox {
+	width: 13px;
+	height: 13px;
+}
+
+.com-btn-style {
+	display: block;
+	border: 0 none;
+	cursor: pointer;
+}
+
+.hid-txt {
+	font-size: 0;
+	height: 0;
+	overflow: hidden;
+	display: block;
+}
+
+/*---global---*/
+body {
+	font-size: 12px;
+	font-family: \5B8B\4F53, Arial, Helvetica, sans-serif;
+	color: #444444;
+	min-width: 970px;
+}
+
+/*---comm---*/
+.box-logo-pho:after,.box-fm:after,.write-tit:after,.box-up-subm:after,#main
+	:after,.wrap-page:after,.gz-list li:after,.box-login li:after {
+	display: block;
+	visibility: hidden;
+	height: 0;
+	clear: both;
+
+}
+
+.box-logo-pho,.box-fm,.write-tit,.box-up-subm,.wrap-page,.gz-list li,.box-login li
+	{
+	display: block;
+	zoom: 1;
+}
+
+.phone,.write-tit .hid-txt,.sp-up,.err,.subm-ty,.latest-notice,.succ,.go-top,.bot-gz,.zhuanf,.close-login,.forget-pwd,.inp-login
+	{
+	background: url(http://s1.1haimg.cn/image/tiyan/bg-sp-tiyan.png)
+		no-repeat -500px -500px;
+}
+
+/*---header---*/
+#header {
+	width: 970px;
+	margin: 0 auto 8px;
+}
+
+.box-qlink {
+	color: #cccccc;
+	text-align: right;
+}
+
+.box-qlink a {
+	color: #666666;
+	text-decoration: none;
+}
+
+.box-qlink a:hover {
+	text-decoration: underline;
+}
+
+.q-link {
+	background-color: #f3f3f3;
+	display: inline-block;
+	padding: 4px 12px 2px; +
+	display: inline;
+	zoom: 1;
+}
+
+.welcome {
+	color: #666666;
+}
+
+.u-name {
+	padding: 0 8px 0 0;
+}
+
+.logo {
+	float: left;
+}
+
+.logo .hid-txt {
+	width: 255px;
+	padding: 46px 0 0 0;
+	background: url(http://s1.1haimg.cn/image/tiyan/logo-tiyan.png)
+		no-repeat 0 0;
+}
+
+.phone {
+	float: right;
+	width: 169px;
+	padding: 20px 0 0 0;
+	margin: 17px 0 0 0;
+	background-position: 0 -188px;
+}
+
+/*---wrap-banner---*/
+#wrap-banner {
+	width: 100%;
+	background: url(http://s1.1haimg.cn/image/tiyan/bg-ban-rep.png) repeat-x
+		0 0;
+	margin-top: -11px;
+}
+
+.box-banner {
+	width: 970px;
+	height: 322px;
+	margin: 0 auto;
+	background: url(../images/tyn-banner.png) no-repeat 0 0;
+}
+
+.box-exam {
+	padding: 94px 0 0 265px;
+	position: relative;
+	zoom: 1;
+}
+
+.exam-tit {
+	color: #ffffff;
+	font-size: 14px;
+	text-decoration: underline;
+}
+
+.exam-con {
+	background-color: #d3f36f;
+	width: 387px;
+	overflow: hidden;
+	position: absolute;
+	top: 116px;
+	left: 265px;
+	display: none;
+	-moz-box-shadow: 0 0 8px #3e4328;
+	-webkit-box-shadow: 0 0 8px #3e4328;
+	moz-box-shadow: 0 0 8px #3e4328;
+}
+
+.exam-con p {
+	background-color: #f7ffd8;
+	border: 1px solid #b4dd36;
+	color: #929292;
+	line-height: 18px;
+	margin: 3px;
+	padding: 10px 9px 9px;
+	text-indent: 2em;
+}
+
+.stp-a,.stp-b {
+	padding: 56px 0 0 0;
+	color: #ffffff;
+	font-size: 14px;
+}
+
+.stp-b {
+	padding: 95px 0 0 0;
+}
+
+.stp-b a {
+	color: #475e00;
+}
+
+/*---wrap-fm---*/
+#wrap-fm {
+	width: 100%;
+	background: url(http://s1.1haimg.cn/image/tiyan/bg-form-rep.png)
+		repeat-x 0 0;
+}
+
+.box-fm {
+	width: 970px;
+	margin: 0 auto;
+	height: 173px;
+}
+
+.form-post {
+	float: left;
+	width: 681px;
+}
+
+.box-write {
+	font-size: 12px;
+	padding: 11px 0 0 0;
+}
+
+.write-tit {
+	font-size: 12px;
+}
+
+.write-tit .hid-txt {
+	width: 194px;
+	float: left;
+	padding: 18px 0 0 0;
+	background-position: 0 -209px;
+}
+
+.zishu {
+	float: right;
+	color: #506b00;
+	font-family: tahoma;
+	padding: 3px 0 0 0;
+}
+
+.color {
+	color: #666666;
+	font-weight: normal;
+}
+
+.area {
+	width: 658px;
+	height: 64px;
+	border: 1px solid #bdbdbd;
+	padding: 10px;
+	line-height: 20px;
+	overflow: auto;
+	margin: 6px 0 0 0;
+}
+
+.box-up-subm {
+	position: relative;
+	zoom: 1; +
+	margin: -1px 0 0 0;
+}
+
+.sp-up {
+	float: left;
+	padding: 4px 0 0 23px;
+	display: block;
+	margin: 9px 0 0 0;
+	line-height: 16px;
+	background-position: -223px -224px;
+	color: #0054aa;
+	text-decoration: underline;
+	cursor: pointer;
+}
+
+.img-req {
+	float: left;
+	color: #777777;
+	font-weight: normal;
+	padding: 15px 0 0 0;
+}
+
+.err {
+	float: right;
+	border: 1px solid #fc9800;
+	padding: 3px 5px 2px 29px;
+	background-color: #ffebca;
+	background-position: -219px -302px;
+	margin: 10px 9px 0 0;
+}
+
+.subm-ty {
+	float: right;
+	width: 102px;
+	height: 39px;
+	background-position: 0 -248px;
+	color: #ffffff;
+	font-size: 22px;
+	font-family: "Î¢ÈíÑÅºÚ";
+}
+
+.up-file {
+	width: 71px;
+	height: 22px;
+	display: block;
+	border: 0 none;
+	position: absolute;
+	left: 0;
+	top: 10px;
+	cursor: pointer;
+	filter: alpha(opacity =   0);
+	opacity: 0;
+	background: transparent;
+}
+
+.box-succ {
+	padding: 34px 0 0 121px;
+}
+
+.succ {
+	padding: 0 0 0 68px;
+	background-position: -191px -386px;
+}
+
+.succ strong {
+	font-size: 24px;
+	color: #000000;
+	font-family: "Î¢ÈíÑÅºÚ";
+	font-weight: normal;
+	line-height: 31px;
+}
+
+.succ p {
+	padding: 8px 0 0 0;
+	color: #444444;
+	font-size: 14px;
+}
+
+.color-a {
+	color: #ff6000;
+	font-family: tahoma;
+	font-weight: bold;
+}
+
+.color-b {
+	color: #0060ff;
+	text-decoration: underline;
+}
+
+.zhuanf {
+	width: 179px;
+	height: 31px;
+	display: block;
+	color: #ffffff;
+	font-size: 16px;
+	font-weight: bold;
+	background-position: 0 -291px;
+	text-decoration: none;
+	text-align: center;
+	padding: 10px 0 0 0;
+	margin: 22px 0 0 68px;
+	display: none;
+}
+
+.latest-notice {
+	float: left;
+	width: 238px;
+	height: 172px;
+	background-position: 0 0;
+	margin: 0 0 0 41px;
+}
+
+.latest-notice p {
+	padding: 70px 15px 0 17px;
+	line-height: 18px;
+	color: #ffffff;
+}
+
+/*---main-con---*/
+#main {
+	width: 970px;
+	margin: 0 auto;
+}
+
+/*---main---*/
+.main-con {
+	float: left;
+	width: 700px;
+}
+
+/*---wrap-tylist---*/
+.wrap-tylist {
+	font-size: 12px;
+	padding: 9px 0 38px 0;
+}
+
+.box-tylist {
+	padding: 29px 10px 23px 12px;
+	border-bottom: 1px solid #dddddd;
+}
+
+.u-npho {
+	color: #0054aa;
+	font-size: 16px;
+}
+
+.up-con {
+	font-size: 14px;
+	line-height: 20px;
+	padding: 10px 0 12px 0;
+}
+
+.box-uimg {
+	
+}
+
+.box-uimg img {
+	border: 1px solid #E7E7E7;
+	padding: 4px;
+	width: 362px;
+}
+
+.up-time {
+	padding: 22px 0 0 0;
+}
+
+/*---wrap-page---*/
+.wrap-page {
+	padding: 21px 25px 0 25px;
+}
+
+.go-top {
+	float: left;
+	color: #409ce2;
+	text-decoration: none;
+	padding: 2px 0 2px 20px;
+	background-position: -229px -337px;
+}
+
+.box-page {
+	float: right;
+}
+
+.box-page a {
+	color: #333333;
+	text-decoration: none;
+}
+
+.box-page a:hover {
+	text-decoration: underline;
+}
+
+/*---side-bar---*/
+.side-bar {
+	float: right;
+	width: 262px;
+}
+
+.img-top {
+	display: block;
+	margin: -1px 0 0 0;
+	position: relative;
+}
+
+/*---wrap-gz---*/
+.wrap-gz {
+	color: #c2890e;
+	width: 240px;
+	margin: 0 auto;
+}
+
+.box-gz {
+	border-left: 1px solid #ffef87;
+	border-right: 1px solid #ffef87;
+	background-color: #fff8cb;
+	padding: 28px 20px 26px 20px;
+}
+
+.box-gz h3 {
+	font-size: 14px;
+	font-weight: bold;
+	margin: 0 0 10px 0;
+}
+
+.gz-list {
+	padding: 0 0 17px 0;
+}
+
+.gz-list li {
+	vertical-align: top;
+	line-height: 18px;
+	padding: 0 0 10px 0;
+}
+
+.gz-list p {
+	float: left;
+	width: 180px;
+}
+
+.padd-add {
+	padding: 0 0 20px 0;
+}
+
+.num-list {
+	float: left;
+}
+
+.wb {
+	display: inline-block;
+	margin: 4px 0 0 5px;
+	color: #036fde;
+	text-decoration: underline;
+}
+
+.bot-gz {
+	padding: 13px 0 0 0;
+	width: 240px;
+	background-position: 0 -173px;
+}
+
+/*---footer---*/
+#footer {
+	width: 100%;
+	text-align: center;
+	background: url(http://s1.1haimg.cn/image/tiyan/bg-footer.png) repeat-x
+		0 0;
+	background: url(http://s1.1haimg.cn/image/tiyan/bg-footer.png) repeat-x
+		0 0;
+}
+
+.box-footer {
+	height: 133px;
+	padding: 30px 0 0 0;
+	width: 970px;
+	margin: 0 auto;
+	color: #000000;
+}
+
+.comm-footer {
+	line-height: 22px;
+}
+
+.comm-footer a {
+	color: #000000;
+	text-decoration: none;
+	vertical-align: top;
+}
+
+.comm-footer strong {
+	color: #f35f0f;
+	font-weight: normal;
+}
+
+.color-line {
+	color: #555555;
+}
+
+/*---wrap-login---*/
+.wrap-login {
+	width: 490px;
+	height: 284px;
+	padding: 8px 0 0 0;
+	background: url(http://s1.1haimg.cn/image/tiyan/bg-login.png) no-repeat
+		0 0;
+}
+
+.close-login {
+	width: 19px;
+	padding: 18px 0 0 0;
+	background-position: -221px -192px;
+	cursor: pointer;
+	margin: 0 0 0 463px;
+}
+
+.box-login {
+	padding: 32px 0 0 0;
+}
+
+.box-login li {
+	vertical-align: top;
+}
+
+.lab-inp {
+	float: left;
+	width: 142px;
+	text-align: right;
+	padding: 8px 15px 0 0;
+	font-size: 16px;
+	font-weight: bold;
+	color: #555555;
+}
+
+.inp-txt,.inp-focus,.sch-inp,.inp-focus-no {
+	float: left;
+	width: 222px;
+	height: 20px;
+	border-width: 1px;
+	border-style: solid;
+	border-color: #606060 #cecece #cecece #606060;
+	padding: 5px;
+	font-size: 14px;
+	height: 17px\9;
+	padding-top: 8px\9;
+}
+
+.inp-txt,.sch-inp {
+	color: #b2b2b2;
+}
+
+.inp-focus,.inp-focus-no,.pwd-cor {
+	color: #555555;
+}
+
+.inp-padd {
+	padding: 0 0 24px 0;
+}
+
+.box-submlog {
+	padding: 0 0 0 157px;
+}
+
+.forget-pwd {
+	display: inline-block;
+	background-color: #cde87a;
+	color: #475e00;
+	text-decoration: underline;
+	padding: 6px 10px 5px 28px;
+	background-position: -217px -260px;
+}
+
+.inp-login {
+	width: 96px;
+	height: 43px;
+	color: #ffffff;
+	font-size: 16px;
+	font-weight: bold;
+	background-position: -101px -229px;
+	margin: 30px 0 10px 0;
+}
+
+.sp-regi {
+	font-size: 12px;
+}
+
+.sp-regi a {
+	color: #ff6000;
+	text-decoration: underline;
+}
+
+.wrap-login {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-top: -142px;
+	margin-left: -245px;
+	z-index: 10;
+	display: none
+}
+
+.zg {
+	position: absolute;
+	z-index: 9;
+	background-color: #666;
+	filter: alpha(opacity =   50);
+	opacity: 0.5;
+	top: 0pt;
+	left: 0pt;
+	display: none
+}
